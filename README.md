@@ -1,76 +1,78 @@
-# CALANDA — From Fire to Flow
+# Caleira PartnerConnect – Pitch der Agentur Super Trooper
 
-Lokale interaktive Consulting-Präsentation in Schweizer Hochdeutsch: 19 Szenen, 3D-Journey, drei CRM-Prozesse, Business-Case-Rechner, Presenter Mode und lokale Backups.
+Interaktive Präsentation für den FHGR-Pitch «Digital Relationship Management» vom 10.12.2026: 19 Szenen, 3D-Journey, drei Live-Demos, Nutzenrechner, Presenter Mode, PDF-Backup und Film.
 
-## Start unter Windows
+Kunde: Caleira AG, Hersteller von Cheminées und Öfen. Vorschlag: PartnerConnect auf Salesforce (Sales Cloud und Service Cloud im MVP), das ERP bleibt führend.
 
-Voraussetzung: Node.js 24 LTS oder eine von den installierten Paketen unterstützte neuere LTS-Version. Die bereitgestellte Installation wurde hier mit Node 25.9 ausgeführt; Vitest empfiehlt Node 22.12/24/26+. Keine externen Zugangsdaten nötig.
+## Start
 
-```powershell
+Voraussetzung: Node.js 24 LTS.
+
+```bash
 npm install
 npm run dev
 ```
 
-Danach http://127.0.0.1:5173 in Chrome oder Edge öffnen. Die erste Installation benötigt Internet. Zur Präsentation selbst werden keine externen Dienste geladen. Fonts, 3D-Geometrien, Demo-Bild, MP4 und PDFs liegen lokal. Nicht `index.html` direkt über `file://` öffnen; Vite stellt die Dateien bereit.
+Danach http://127.0.0.1:5173 in Chrome öffnen. Die Installation braucht Internet, die Präsentation nicht.
 
-```powershell
+```bash
 npm run build
-npm run preview
 npm test
 npm run test:e2e
 ```
 
-`test:e2e` verwendet die installierten Windows-Browser Edge und Chrome. `package-lock.json` fixiert die tatsächlich installierten Versionen. `npm ci` reproduziert diese Installation.
+`test:e2e` läuft standardmässig in Chrome. Weitere Browser: `PW_CHANNELS=chrome,msedge npm run test:e2e`.
 
 ## Bedienung
 
-- Pfeil rechts / Leertaste: weiter; Pfeil links: zurück. Formulare, Buttons und Video behalten ihre eigene Tastaturbedienung.
-- Kapitelübersicht und Fortschrittsleiste springen direkt zu Szenen. URL `/#scene-7` öffnet die Akquise-Demo.
-- Notizsymbol: Sprechernotizen, Gesamttimer, Zeitbudget, Kriterien und nächster Schritt. Separates Presenter-Fenster synchronisiert Szene und Timer über BroadcastChannel.
-- Vollbildsymbol: Präsentationsmodus. „Motion aus“ reduziert Bewegung; Systempräferenz wird beim Start berücksichtigt.
-- Demos: „Zurücksetzen“ stellt den jeweiligen Anfangszustand her. Prozessdaten bleiben lokal im Browser gespeichert, keine echten Nachrichten oder ERP-Zugriffe.
-- Szene 4: Kapitel, Pause, Explore, Kameraperspektive, Vorher/Nachher und lokaler Film.
-- Szene 16: MVP und spätere Portalwirtschaftlichkeit sind getrennt. Erst ein expliziter Realisierungsanteil erzeugt modellierte Kosteneinsparungen.
-- „Quellen & Backup“ enthält Downloads. Auf kleineren Fenstern sind umfangreiche Detailansichten intern scrollbar.
+- Pfeil rechts oder Leertaste: weiter. Pfeil links: zurück. `/#scene-7` öffnet direkt eine Szene.
+- Notizsymbol: Sprechtext, Timer und Kriterien. Das separate Presenter-Fenster läuft synchron.
+- «Zurücksetzen» stellt in jeder Demo den Anfang wieder her.
+- «Quellen & Backup»: Downloads und Quellenangaben.
 
 ## Abgabe
 
-- `public/downloads/calanda-pitch.pdf`: 19 statische Hauptszenen, 16:9.
-- `public/downloads/calanda-demo-backup.pdf`: Prozesse, Screenshots, Architektur, Rechnung, Risiken und R1–R8.
-- `public/media/calada-customer-journey.mp4`: 72 Sekunden, 1920 × 1080, H.264, ohne Ton.
-- `docs/presenter-script.md`: 30-Minuten-Ablauf inkl. Demo-Regie und Übergaben.
-- `docs/qa-preparation.md`: Kundengespräch und kritische Fragen.
-- `docs/rubric-coverage.md`: alle 20 Kriterien aus dem Auftrag, Nachweise und offene Originalanker.
-- `docs/case-facts.md`, `docs/assumptions.md`, `docs/requirements-matrix.md`, `docs/ai-disclosure.md`.
-- `docs/qa-report.md`: tatsächliche Testresultate und Grenzen.
+- `public/downloads/caleira-pitch.pdf`: 19 Hauptfolien.
+- `public/downloads/caleira-demo-backup.pdf`: lesbares Demo-Backup mit den drei Journeys.
+- `public/downloads/nachweise.md`: Matrix R1–R8 mit Folien- und Demo-Verweisen, Quellen.
+- `public/media/caleira-customer-journey.mp4`: Film, 72 Sekunden.
 
-## Offener Quellenabgleich
+## Docs
 
-Die Dateien `docs/FHGR - Pitch Case.pdf` und `docs/FHGR - Bewertungsraster Pitch 2026.xlsx` wurden nicht bereitgestellt. Alle Case-Werte sind daher aus dem Master-Prompt übernommen. Exakte 5-Punkte-Leistungsanker wurden **nicht erfunden**. Die vollständige FHGR-Originalkonformität kann noch nicht bestätigt werden.
+Alle Dateien in `docs/` ausser `qa-report.md` werden von `scripts/documentation.mjs` erzeugt. Inhalte dort ändern, nicht in den Markdown-Dateien.
 
-## Inhalt und Abgrenzung
-
-MVP: R1/R2/R5/R7 in sechs Monaten. R3/R4/R6/R8 folgen gestaffelt. Planbudget CHF 145’000 einmalig und CHF 2’600/Monat, exkl. MWST, ausdrücklich Schätzungen. ERP bleibt führend für Produkte, Preise, Partnerstammdaten und Bestellungen. Kein B2C-Checkout.
-
-CRM, Login, ERP, Versand und KI sind lokale Simulationen mit fiktiven Daten. Kein produktives System, keine reale Authentifizierung oder serverseitige Sicherheitsgarantie. Die Miniaturwelt verwendet eigene stilisierte Geometrien. Für den Film werden deterministische Frames derselben Welt gerendert; die Kameras sind filmisch vorgegeben.
+| Datei | Inhalt |
+|---|---|
+| `case-facts.md` | Fakten aus dem Case, abgeglichen |
+| `rubric-coverage.md` | 20 Kriterien mit Original-Ankern, Szene und Nachweis |
+| `requirements-matrix.md` | R1–R8, Stufe, Abhängigkeiten |
+| `assumptions.md` | Alle Zusatzannahmen |
+| `platform-decision.md` | Warum Salesforce, abgewogene Alternativen |
+| `differentiation.md` | Was diesen Pitch von den anderen Gruppen unterscheidet |
+| `theory-map.md` | Modelle aus den Vorlesungen und ihre Verwendung |
+| `presenter-script.md` | Sprechtext, Zeiten, sechs Sprechblöcke, Übergaben |
+| `qa-preparation.md` | Top-10-Fragen der Geschäftsleitung mit Antworten |
+| `architecture.md`, `risks.md`, `operating-model.md` | Systeme, Risiken, Zusammenarbeit |
+| `ai-disclosure.md` | Offenlegung der KI-Nutzung |
+| `qa-report.md` | Testergebnisse und offene Punkte |
 
 ## Medien neu erzeugen
 
-```powershell
-npm run video:studio
-npm run video:render
+```bash
 node scripts/documentation.mjs
+npm run dev            # in einem zweiten Terminal laufen lassen
 node scripts/screenshots.mjs
-npm run export
+node scripts/backups.mjs
+npm run export         # braucht Python mit reportlab, pypdf, pillow
+npm run video:render
 ```
 
-Der Videoexport nutzt Remotions mitgelieferten Render-Browser; dessen erster Download benötigt Internet. PDF-Export benötigt Python mit `reportlab`, `pypdf` und Pillow. `scripts/export.mjs` sucht zuerst den in dieser Umgebung bereitgestellten Python-Runtime-Pfad, danach `python`. `pdftoppm` wird nur für die zusätzliche Sichtkontrolle gebraucht.
+`CALEIRA_PYTHON` zeigt bei Bedarf auf ein Python mit den drei Paketen. `PW_CHANNEL` wählt den Browser für die Screenshot-Skripte (Standard: chrome).
 
-## Technische Quellen
+## Vor dem Pitch
 
-- [Vite-Dokumentation](https://vite.dev/guide/)
-- [React Three Fiber](https://r3f.docs.pmnd.rs/getting-started/introduction)
-- [Remotion](https://www.remotion.dev/docs/)
-- [Web Interface Guidelines](https://raw.githubusercontent.com/vercel-labs/web-interface-guidelines/main/command.md)
+- Zuteilung der Sprechblöcke prüfen (`speaker` in `src/content/scenes.ts`), nach Änderungen `node scripts/documentation.mjs`.
+- Salesforce-Offerte einholen oder Listenpreise bestätigen (`docs/platform-decision.md`).
+- Generalprobe mit Stoppuhr und dem Beamer im Raum.
 
-Code und Dokumente wurden mit KI-Unterstützung erstellt; siehe `docs/ai-disclosure.md`. Keine Zuordnung zu einem realen Calanda-Unternehmen oder zu realen Produktangeboten.
+Der lokale Ordner und das GitHub-Repository tragen noch den alten Projektnamen. Umbenennen kann nur die Person mit Adminrechten auf GitHub.

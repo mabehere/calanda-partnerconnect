@@ -1,11 +1,27 @@
 # Zusammenarbeit, Einführung und Betrieb
 
-Kundensponsor: Budget und finale Abnahme. Process Owner Vertrieb/Service: Prozessentscheidung und Pilotziele. IT/Data Owner: Schnittstellen, Rechte, Qualität und Datenverantwortung. Key User: Tests und Peer-Schulung. Felsgrad: Projektleitung, CRM-Konfiguration, Integration, Tests und Dokumentation.
+## Rollen
 
-Modellannahme Kundenaufwand: 45 Personentage, zusätzlich zum externen Preis (10 Prozesse/Entscheide, 12 IT/Daten, 15 Tests/Pilot, 8 Schulung/Übergabe). Personentag nicht willkürlich in CHF umgerechnet.
+| Rolle | Aufgabe |
+|---|---|
+| Sponsor, Geschäftsleitung | Budget, Konflikte, Abnahme |
+| Prozessverantwortliche Vertrieb und Service | Anforderungen, Pilotziele, Freigabe der Tore 1, 3 und 4 |
+| IT und datenverantwortliche Person | Schnittstelle, Rechte, Datenqualität, Freigabe Tor 2 |
+| Key User | Tests, Schulung der Kolleginnen und Kollegen |
+| Super Trooper | Projektleitung, Konfiguration, Integration, Tests, Dokumentation, Betrieb nach Übergabe |
 
-Arbeitsrhythmus: wöchentliche Abstimmung, zweiwöchentliche Demo, monatlicher Lenkungsausschuss. Change: Rollenworkshops, Key-User-Schulung, Kurzanleitungen, Pilotsprechstunde und Feedbackliste.
+## Kundenaufwand
 
-Pilot: angenommene 8 Mitarbeitende/10 Partner, standort- und prozessrepräsentativ auswählen. 90-Tage-Partnerkohorte kann über den sechsmonatigen Rollouttermin hinauslaufen; keine vorzeitige Erfolgsmeldung. Technische Abnahme und wirtschaftliche Wirkung getrennt behandeln.
+45 Personentage zusätzlich zum Projektpreis: 10 für Prozesse und Entscheide, 12 für IT und Daten, 15 für Tests und Pilot, 8 für Schulung und Übergabe.
 
-Betrieb nach Übergabe: Kunde besitzt Daten und Berechtigungsverantwortung; Dienstleister übernimmt vereinbarten Support/Monitoring im Kostenplan. Störungsannahme, Prioritäten, Reaktionszeiten, Backup, Wiederherstellung und Change-Prozess vor Unterschrift vertraglich konkretisieren. Keine unbelegten 24/7-Zusagen.
+## Rhythmus
+
+Wöchentliche Abstimmung, alle zwei Wochen eine Vorführung, monatlich der Lenkungsausschuss mit Freigabe des Tors.
+
+## Einführung
+
+Pilot im Monat 5 mit 8 Mitarbeitenden und 10 Partnern aus allen vier Standorten. Schulung nach Rolle, Kurzanleitungen in Deutsch, Italienisch und Französisch, Sprechstunde während des Pilots. Die 90-Tage-Kennzahl für neue Partner läuft über den Rollout hinaus und wird nicht vorzeitig gemeldet.
+
+## Betrieb nach Projektende
+
+Der Kunde besitzt die Daten und vergibt die Rechte. Die Agentur übernimmt Support und Überwachung der Schnittstelle im Rahmen von CHF 1’400 pro Monat. Reaktionszeiten, Sicherung und Änderungsprozess werden im Betriebsvertrag festgelegt.

@@ -1,9 +1,11 @@
-# MVP-Risikoregister – qualitative Modellbewertung
+# Drei Risiken des MVP
 
-| Risiko | Wahrscheinlichkeit / Auswirkung | Frühwarnindikator | Massnahme | Verantwortlich |
+| Risiko | Eintritt / Wirkung | Frühwarnzeichen | Massnahme | Verantwortlich |
 |---|---|---|---|---|
-| ERP-Schnittstellen unklar | Mittel / Hoch | Kein Testzugang Ende M1 | Technischer Spike; Exportalternative; Go/No-Go M2; Kosten nachweisen | IT-Leitung / Integration Lead |
-| Schlechte Datenqualität | Hoch / Hoch | Dubletten und fehlende Referenzen über vereinbarter Toleranz | Profiling, Data Owner, Bereinigung, manuelle Konfliktentscheidung, Migrationstest | Data Owner Vertrieb |
-| Niedrige Akzeptanz | Mittel / Mittel | Persönliche Excel-Listen bleiben führend | Co-Design, Key User, Alltagstests, Schulung und Sprechstunde | Process Owner |
+| ERP-Schnittstelle unklar | mittel / hoch | Kein Testzugang bis Ende Monat 1 | Technische Abklärung, Export als Ausweg, Entscheid im Monat 2 | IT-Leitung Kunde, Integration Agentur |
+| Schlechte Datenqualität | hoch / hoch | Dubletten und fehlende Referenzen über der vereinbarten Schwelle | Datenprüfung, Bereinigung vor Migration, Entscheid von Hand | Datenverantwortliche Person Vertrieb |
+| Tiefe Akzeptanz | mittel / mittel | Persönliche Excel-Listen bleiben in Gebrauch | Mitgestaltung, Key User, Schulung, Sprechstunde im Pilot | Prozessverantwortliche Vertrieb und Service |
 
-Toleranzen und harte Abnahmeschwellen im ersten Monat gemeinsam festlegen. Kein automatisches Grün bei Nichterreichen. Kritische Integrations-, Berechtigungs- oder Datenfehler blockieren den Rollout. KPI-Verfehlung: Ursachenanalyse, Nachbesserung, neue Messung; Sponsor entscheidet über Umfang oder Termin.
+Schwellen werden im Monat 1 gemeinsam festgelegt. Kritische Fehler bei Schnittstelle, Rechten oder Daten verhindern den Rollout. Wird ein Pilotziel verfehlt: Ursache klären, nachbessern, erneut messen; über Umfang und Termin entscheidet der Sponsor.
+
+Zusätzlich beobachtet: Die Pro Suite genügt nicht für die Schnittstelle (siehe docs/platform-decision.md).
