@@ -8,3 +8,11 @@ export function calculate(i:Inputs){
   const savings=value*i.realization/100;
   return {manual,remaining:manual*(1-i.automation/100),baselineHours,baselineValue:baselineHours*i.hourlyValue,baselineAnnual:baselineHours*i.hourlyValue*12,released,value,annual:value*12,savings,annualSavings:savings*12,annualOperating:i.monthlyCost*12,netAnnual:savings*12-i.monthlyCost*12};
 }
+// MVP-Wirkung: Zielwerte und Rückfragezeit sind Annahmen. Bestellungen je Partner folgen aus dem Case (1'200 × 12 / 150).
+export function mvpEffect(minutes:number=PLAN.followUp.clarificationMinutes){
+  const fewerIncomplete=CASE.service.monthly*(CASE.service.incompleteShare-PLAN.targets.incompleteShare)/100;
+  const hours=fewerIncomplete*minutes/60;
+  const extraPartners=(PLAN.targets.newPartners-CASE.acquisition.newPartners)*4;
+  const ordersPerPartner=CASE.orders.monthly*12/CASE.partners;
+  return {minutes,fewerIncomplete,hours,value:hours*CASE.orders.hourlyValue,extraPartners,ordersPerPartner,extraOrders:extraPartners*ordersPerPartner};
+}

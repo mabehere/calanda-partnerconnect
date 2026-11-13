@@ -2,7 +2,7 @@ from pathlib import Path
 from PIL import Image,ImageDraw
 import pdfplumber
 root=Path(__file__).resolve().parent.parent/'output/pdf'
-for name,prefix in [('calanda-pitch.pdf','pitch'),('calanda-demo-backup.pdf','backup')]:
+for name,prefix in [('caleira-pitch.pdf','pitch'),('caleira-demo-backup.pdf','backup')]:
     with pdfplumber.open(root/name) as pdf:
         issues=[]
         for i,page in enumerate(pdf.pages):

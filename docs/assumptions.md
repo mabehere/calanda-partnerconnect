@@ -1,23 +1,25 @@
-# Annahmenregister
+# Zusatzannahmen
 
-Sämtliche Ergänzungen sind Modelle, keine erhobenen Kundenfakten oder Anbieterangebote.
+Nichts in dieser Tabelle steht im Case. Jede Zeile ist eine Annahme der Agentur und wird im Projekt geprüft.
 
-| Annahme | Wert / Begründung | Validierung |
-|---|---|---|
-| Agentur & Figuren | Felsgrad, Marco Bianchi, Ofenbau Nord, alle Mitarbeitenden fiktiv | Als Demo kennzeichnen |
-| Produkte und Preise | Alpin 80 / CHF 2’840; Rocca 60 / CHF 3’260; Val 40 / CHF 2’190; Leistungen 6/8/4 kW | Reale ERP-Daten erst nach Freigabe |
-| MVP-Projekt | CHF 145000; Kostenpositionen in src/data/case.ts | Anbieterangebote und Aufwandsschätzung einholen |
-| MVP-Betrieb | CHF 2600/Monat: 1’200 Lizenzen, 400 Hosting/Monitoring, 1’000 Support; 20 interne Nutzer | Lizenzmodell, Integrationskosten, SLA prüfen |
-| Interner Kundenaufwand | 45 Personentage: 10 Prozesse, 12 IT/Daten, 15 Pilot/Tests, 8 Schulung | Kapazität durch Kundenrollen bestätigen; nicht im externen Projektpreis |
-| Pilotumfang | 8 Mitarbeitende, 10 Partner | Repräsentanz aller vier Standorte und Prozesse prüfen |
-| KPI-Ziele | Antwort 1 statt 4 Arbeitstage; 6 statt 4 Partner/90 Tage; 15% statt 35% unvollständige Tickets | Vorher/Nachher und Kohorten, keine CRM-Alleinkausalität |
-| Portal-Szenarien | 30/60/90% Automatisierung der heute manuellen Vorgänge | Pilot- und Schnittstellendaten |
-| Kostenwirksame Realisierung | Default 0%, nur explizit editierbar | Tatsächlich vermiedene Kosten nachweisen |
-| Portalzusatzkosten | Unbekannt | Separater Business Case, kein ROI behauptet |
-| Marketing | 90 Tage Inaktivität, 30 Tage Beobachtung nach Kontakt | Kommunikationsberechtigung, Kontrollgruppe, Stoppregeln |
-| KI-Pilot | 100 gelabelte Testfälle, ≥90% richtig, 0 kritische Fehler, ≥20% Zeitgewinn inkl. Prüfung | Separater Testsatz, de-identifizieren, Datenschutz- und Anbieterprüfung |
-| Risiken | Qualitative Wahrscheinlichkeit und Auswirkung | In Discovery mit Kunde bewerten |
+| Annahme | Wert | Begründung | Prüfung |
+|---|---|---|---|
+| Figuren und Betriebe | Marco Bianchi, Bianchi Ofenbau Locarno; Giulia Rossi, Luca Ferrari, Sofia Keller | Ein Protagonist für alle drei Journeys | Reine Demo-Figuren |
+| Sortiment | Öfen und Ersatzteile; Ersatzteile und Zubehör tragen die wiederkehrenden Bestellungen | Das Raster verlangt wiederkehrende B2B-Bestellungen; 8 Bestellungen je Partner und Monat sind mit Öfen allein nicht plausibel | ERP-Auswertung nach Artikelgruppe |
+| Saisonalität | Spitzen bei Bestellungen und Servicefällen in der Heizsaison | Branchenlogik; in der Vorlesung als «saisonale Produkte» geführt | Monatsverlauf aus dem ERP |
+| Tagessatz Agentur | CHF 1’400 | Mischsatz über alle Rollen | Offerte |
+| Aufwand MVP | 96 Personentage, Reserve CHF 10’600 | Aufteilung siehe Kostenplan | Schätzung nach Discovery |
+| Salesforce-Edition | Pro Suite, CHF 100 je Nutzer und Monat | Listenpreis EUR 100, vorsichtig 1:1 in CHF; Sales und Service in einer Edition | Offerte Salesforce; Eignung für die ERP-Schnittstelle bestätigen |
+| Anzahl Nutzer | 12 (3 Partnerbetreuung Chur, 3 Partnerbetreuung Locarno, Hamburg, Paris, 4 Service, 1 Vertriebsleitung, 1 Administration / IT) | Im MVP arbeiten nur Partnerbetreuung, Service und Leitung im System | Rollenliste des Kunden |
+| Betrieb | CHF 400 Integration und Monitoring, CHF 1’000 Support pro Monat | Rund 0,7 Personentage Support | Betriebsvertrag |
+| Kundenaufwand | 45 Personentage: 10 Prozesse, 12 IT und Daten, 15 Tests und Pilot, 8 Schulung | Nicht im Projektpreis | Bestätigung durch Kundenrollen |
+| Pilot | 8 Mitarbeitende, 10 Partner, ausserhalb der Saisonspitze | Zwei Drittel der Nutzer, alle vier Standorte | Auswahl im Monat 4 |
+| KPI-Ziele | Antwort 1 statt 4 Arbeitstage; 6 statt 4 neue Partner; 15 statt 35 % unvollständig | Erreichbar mit Zuweisung, Vertretung und Pflichtfeldern | Festlegung im Monat 1, Vergleich mit Vorjahresmonat |
+| Rückfrage je unvollständigem Fall | 20 Minuten | Ein Mail und ein Telefonat | Zeitaufnahme im Pilot |
+| Portal-Lizenzen (Stufe 3) | CHF 3’750 pro Monat für 150 Partner | Listenpreis Experience Cloud für Partner, USD 25 je Mitglied | Offerte; Login-basiertes Modell prüfen |
+| Automatisierung Bestellungen | 30, 60 oder 90 % der manuellen Übertragungen | Szenarien statt Punktwert | Portalnutzung im Betrieb |
+| KI-Pilot | 100 Fälle, mindestens 90 % richtig, kein kritischer Fehler, 20 % Zeitgewinn | Messbare Schwellen für den Entscheid | Eigener Testsatz |
 
-Zeitplanung: Die vom Auftrag vorgegebenen Szenenzeiten summieren sich auf exakt 1’800 Sekunden. Sprechgeschwindigkeit und Interaktionen sind live variabel; Generalprobe erforderlich.
+## Was die Demo ist
 
-Technische Grenzen: lokale Demo ohne produktive Authentifizierung, Server-Autorisierung, echte ERP-Anbindung, echten Mailversand oder KI-Modell. Testfoto ist eine eigens erstellte Illustration. 3D-Welt ist eine stilisierte Eigenkonstruktion, keine reale Gebäudeaufnahme.
+Die Demo ist ein klickbarer Prototyp des Salesforce-Zielbilds mit Beispieldaten. Sie ist nicht an ein ERP, einen Mailserver oder ein KI-Modell angebunden. Diese Abgrenzung steht einmal hier und im Dialog «Quellen & Backup», nicht in jedem Sprechtext.

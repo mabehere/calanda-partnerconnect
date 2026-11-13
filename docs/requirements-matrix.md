@@ -1,14 +1,16 @@
-# Anforderungen R1–R8
+# Anforderungen R1–R8 mit Folien- und Demo-Verweisen
 
-| ID | Umfang | Priorität | Warum / Abnahme |
-|---|---|---|---|
-| R1 | Partnerübersicht mit ERP-Referenz, Betreuung und Historie | MVP | Grundlage der Beziehung; Standort, Rolle und Referenz abgenommen |
-| R2 | Anfrage, Dublette, Qualifikation, Aufgabe, Vertretung, Chance, Freigabe | MVP | Schnelle Antwort und klare Verantwortung; vollständige Journey getestet |
-| R3 | Segment, Trigger, Berechtigung, E-Mail und Stoppregeln | Später | Benötigt verlässliche Stammdaten, Kontakte und Kommunikationsberechtigungen |
-| R4 | Personalisierter Katalog, Bestellung, Fehler, idempotenter Retry, Status | Später | Technisch anspruchsvolle ERP-Schreibintegration; zusätzliche Kosten ungeklärt |
-| R5 | Ticket, fehlende Angaben, Zuständigkeit, Eskalation, Lösung, Abschluss | MVP | 35% unvollständige Fälle adressieren; Abschluss nur nach Lösung und Nachricht |
-| R6 | B2B/B2C-Pfade und lokale Content-Pflege | Später | Bestehende einsprachige Website bleibt Ausgangspunkt; MVP-Leadaufnahme per CRM/Formular möglich |
-| R7 | Datenhoheit, Rollen, Integration, Fehler und Logging | MVP | Ohne belastbare Referenzen kein verlässliches CRM; ERP-Schnittstellen prüfen |
-| R8 | Regeln vs. KI, Human Review, messbarer Pilot und Verzichtsoption | Später | Erst Daten und Prozesse stabilisieren; Regeln im MVP |
+| ID | Verbindlicher Inhalt (Case) | Stufe | Nachweis | Begründung der Stufe |
+|---|---|---|---|---|
+| R1 | Partner, Kontakte, verantwortliche Person; Interaktionen, Bestellungen und Fälle verknüpft | MVP | Szene 08 · Demo Partnerübersicht | Grundlage für alles Weitere |
+| R2 | Anfrage erfassen, qualifizieren, zuweisen, bis zum nächsten Verkaufsschritt verfolgen | MVP | Szene 07 · Demo Journey 1 | Antwortzeit ist der schnellste sichtbare Gewinn |
+| R3 | Ein Segment, ein Auslöser, eine E-Mail; Datenbasis, Versandlogik, Abmeldung | Stufe 2 | Szene 11 · Demo Marketing | Braucht saubere Kontakte und Einwilligungen aus dem MVP; rechtzeitig vor der nächsten Heizsaison |
+| R4 | Geschützter Katalog, Partnerpreise, Warenkorb, Abschluss, ERP-Übergabe, Status | Stufe 3 | Szene 09 · Demo Journey 2 | Braucht geprüfte Schreib-Schnittstelle ins ERP und Portal-Lizenzen ausserhalb des MVP-Budgets |
+| R5 | Anfrage zu Partner und Bestellung; Zuständigkeit, Status, Rückmeldung | MVP | Szene 10 · Demo Journey 3 | 35 % unvollständige Fälle, 6 Arbeitstage Klärung |
+| R6 | Partner und Endkunden unterscheiden; Inhalt mit Produkt oder Partneranfrage verbinden | Stufe 2 | Szene 12 · Demo Website | Bestehende Website genügt für das Lead-Formular im MVP; Mehrsprachigkeit folgt |
+| R7 | Architektur mit führenden Daten, Schnittstellen, Zugriffsrechten; ERP bleibt | MVP | Szenen 06, 13 · Systembild | Ohne geprüfte ERP-Referenzen keine verlässliche Partnersicht |
+| R8 | KI-Fall mit Lösung ohne KI vergleichen; Daten, Kontrolle, Nutzen, Grenzen | Stufe 4 | Szene 14 · Demo KI-Entscheid | Regeln genügen für den Start; KI erst nach messbarem Pilot |
 
-Diese Struktur basiert auf dem Nutzerauftrag. Originalwortlaut und Leistungsanker bleiben bis zum Eingang der Originale offen.
+Abhängigkeiten: R7 vor R1 und R5 (ERP-Referenzen). R1 vor R3 (Kontakte, Einwilligungen). R7 lesend im MVP, schreibend erst für R4. R5 liefert die Falldaten für R8.
+
+Ausschlüsse im MVP: kein Direktverkauf an Endkunden, kein Partnerportal, kein Mailversand an Partner, keine KI.

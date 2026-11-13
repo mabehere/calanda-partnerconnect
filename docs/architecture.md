@@ -1,26 +1,26 @@
-# Architektur und Datenverantwortung
+# Systeme und Daten
 
-## System of Record
+## Führende Systeme
 
-ERP: Produkte, Preise, Partnerstammdaten, Bestellungen. CRM: Leads, Chancen, Aktivitäten, Zuständigkeiten, Interaktionen, Tickets. Portal: spätere authentifizierte Oberfläche, keine eigene Stammdatenhoheit. Bestehende Website: einsprachig; Erweiterungen später.
+| Daten | Führend | Salesforce | Richtung |
+|---|---|---|---|
+| Produkte, Preise | ERP | liest (ab Stufe 3 im Portal) | ERP → Salesforce |
+| Partnerstammdaten | ERP | liest; Änderungen als Auftrag ans ERP | ERP → Salesforce |
+| Bestellungen und Status | ERP | liest; schreibt ab Stufe 3 über das Portal | ERP ↔ Salesforce |
+| Leads, Verkaufschancen, Aktivitäten | Salesforce (Sales Cloud) | führt | Freigabe → ERP legt Partner an |
+| Kontakte und Einwilligungen | Salesforce | führt | – |
+| Cases, Assets, Fristen | Salesforce (Service Cloud) | führt | Bestellreferenz aus ERP |
 
-## Integrationsvertrag – im Projekt zu verifizieren
+## Schnittstelle
 
-1. M1/M2: vorhandene ERP-Schnittstellen, Exportverfahren, Lizenzkosten, Testmandant, Rate Limits und Verantwortliche abklären. Keine API-Verfügbarkeit voraussetzen.
-2. Nachricht: Transaktionskennung, Quellsystem, Quellreferenz, Zeitstempel, Schema-Version, Payload und Prüfstatus.
-3. Eingangsvalidierung und Partnerreferenzprüfung. Normalisierte E-Mail als einfacher Demo-Dublettenhinweis; produktiv zusätzlich Unternehmensidentität prüfen, unklare Treffer manuell entscheiden.
-4. ERP-Schreibvorgänge nur über autorisierte Integrationsrolle. Für R4 Idempotenzschlüssel serverseitig dauerhaft speichern, atomare Annahme, erneute Zustellung mit identischem Resultat. Lokales Demo-Array beweist die Logik, keine verteilte Transaktionssicherheit.
-5. Wiederholbare Verbindungsfehler mit begrenztem Backoff; fachliche Fehler in Fehlerliste, kein blindes Wiederholen. Alarm und Verantwortliche nach SLA.
-6. Sync-Log mit Status, Versuch, Fehlercode, Referenz und Zeit. Keine Passwörter oder vollständigen sensiblen Inhalte ins Log. Abgleichberichte und Wiederanlauf testen.
+- Monat 2: Schnittstellen, Exportwege, Testmandant und Kosten des ERP klären. Erst danach wird gebaut.
+- Jede Übertragung trägt Kennung, Quelle, Zeitstempel und Status. Fehler landen in einer Liste mit zuständiger Person. Verbindungsfehler werden begrenzt wiederholt, fachliche Fehler nicht.
+- Für das Portal (Stufe 3): Die Kennung wird serverseitig gespeichert, eine wiederholte Übertragung erzeugt keine zweite Bestellung.
 
-## Rollenmodell
+## Rechte
 
-- Vertrieb: Leads und Aktivitäten seines Zuständigkeitsbereichs; standortübergreifende Vertretung explizit vergeben.
-- Service: Tickets, benötigte Partner- und Bestellreferenzen; keine freie Preisänderung.
-- Partner: ausschliesslich eigene Bestellungen und autorisierte Preise; jede Anfrage serverseitig prüfen.
-- Integration: minimale technische Rechte, getrennte Credentials und Audit.
-- Administration: Konfiguration; Änderungen protokollieren.
+Vertrieb: eigene Partner und Leads, Vertretung wird ausdrücklich vergeben. Service: Cases mit Partner- und Bestellreferenz, keine Preise. Partner (ab Stufe 3): nur eigene Daten und Preise, geprüft bei jedem Zugriff. Integration: eigener technischer Nutzer mit minimalen Rechten. Administration: Änderungen werden protokolliert.
 
-## Datenqualität und Betrieb
+## Datenqualität
 
-Data Owner definiert Pflichtfelder, Dublettenentscheidung und Aufbewahrungsregeln. Migration zunächst Testlauf mit Stichproben und Referenzabgleich. Backups, Restore, Monitoring, Rechteentzug und Fehlermeldungen vor Abnahme testen. Datenschutz, Löschfristen, rechtliche Versandgrundlagen und Verarbeitungsverträge fachlich prüfen; diese Demo stellt keine Rechtsberatung oder Rechtskonformitätszusage dar.
+Eine verantwortliche Person beim Kunden legt Pflichtfelder fest und entscheidet über Dubletten. Regel: ERP-Partnernummer und normalisierte E-Mail-Adresse; unklare Treffer werden von Hand entschieden. Die Migration läuft zuerst als Test mit Stichprobe. Datenschutz, Aufbewahrung und Versandgrundlagen prüft der Kunde mit seiner Rechtsberatung.

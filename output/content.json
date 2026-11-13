@@ -2,241 +2,259 @@
   "scenes": [
     {
       "title": "From fire\nto flow.",
-      "eyebrow": "01 / Die Beziehung beginnt",
+      "eyebrow": "01 / Die erste Kältewoche",
       "message": "Das Feuer begeistert. Die Beziehung entscheidet.",
       "seconds": 90,
       "criteria": [
         "V4",
         "A1"
       ],
-      "notes": "Marco hat vier Kaminöfen bestellt. Die Bestellung existiert im ERP. Aber wer kennt den aktuellen Status? Lassen Sie das Bild kurz wirken. Marco Bianchi ist eine fiktive Figur, seine Situation steht für eine reale Prozessfrage des Cases. Heute zeigen wir, wie Calanda verlässlicher mit ihren Partnern arbeitet. Wir verbinden die bestehende Substanz mit klaren Zuständigkeiten. Unser Vorschlag ersetzt das ERP nicht. Er macht Beziehungen, Aufgaben und Service nachvollziehbar. Am Ende entscheiden Sie über einen begrenzten MVP mit überprüfbarer Abnahme.",
-      "cue": "Ofen zeigen, kurze Pause. Mit Pfeil rechts weiter.",
-      "proof": "docs/case-facts.md; docs/assumptions.md"
+      "speaker": "Anya",
+      "notes": "Erste Kältewoche im November. Marco Bianchi, Ofenbauer aus Locarno, steht im Wohnzimmer seiner Kundin. Der neue Ofen ist eingebaut. Die Scheibe hat einen Sprung. Die Kundin friert, Marco ruft bei Caleira an. Dort weiss niemand Bescheid. Sechs Arbeitstage vergehen, bis der Fall geklärt ist. Kurze Pause. Marco ist einer von 150 Partnern. Für die Kundin ist er Caleira. Wenn wir ihn warten lassen, wartet sie. Guten Tag, wir sind Super Trooper. In den nächsten 30 Minuten zeigen wir Ihnen, wie derselbe Moment in einem Jahr aussieht. Am Schluss bitten wir Sie um einen Entscheid.",
+      "cue": "Ofen zeigen, nach «niemand Bescheid» zwei Sekunden Pause. Zeitrahmen 30 + 15 Minuten bestätigen.",
+      "proof": "docs/case-facts.md"
     },
     {
       "title": "Ein Netzwerk.\nEine Verantwortung.",
-      "eyebrow": "02 / Calanda verstehen",
-      "message": "150 aktive Vertriebspartner sind das Herz des Geschäfts.",
+      "eyebrow": "02 / Caleira verstehen",
+      "message": "Der Endkunde sieht nur den Partner. Der Partner sieht uns.",
       "seconds": 60,
       "criteria": [
         "V1",
         "A3"
       ],
-      "notes": "Calanda Feuertechnik AG ist unser fiktiver Schweizer Hersteller mit Sitz in Chur. Der Case nennt 70 Mitarbeitende und die vier Standorte Chur, Locarno, Hamburg und Paris. Der Vertrieb erfolgt ausschliesslich B2B. Endkunden erhalten Inspiration und finden einen Fachpartner. Sie kaufen im MVP nicht direkt bei Calanda. Für die Geschäftsleitung ist die zentrale Frage deshalb: Wie gut unterstützen wir unsere Partner über Standorte hinweg? Die Lösung muss zur Arbeit der Menschen passen und den bestehenden Vertrieb stärken.",
-      "cue": "Vier Standorte und B2B-Abgrenzung erläutern.",
+      "speaker": "Anya",
+      "notes": "Caleira baut in Chur Cheminées und Öfen. 70 Mitarbeitende, vier Standorte: Chur, Locarno, Hamburg und Paris. Verkauft wird über 150 Fachpartner. Der Ofenbauer berät, plant und baut ein. Das ist ein B2B2C-Modell: Caleira erreicht die Bauherrin nur über Marco. Darum gibt es im MVP keinen Direktverkauf. Ihr Auftrag an uns: Der Partnervertrieb soll wachsen und im Alltag verlässlicher werden. Dahinter steckt ein Zielkonflikt. Wachsen heisst mehr Partner. Verlässlich heisst, die bestehenden besser zu betreuen. Mit denselben Leuten.",
+      "cue": "Vier Standorte zeigen. Zielkonflikt Wachstum gegen Verlässlichkeit betonen.",
       "proof": "src/data/case.ts"
     },
     {
       "title": "Gutes Handwerk.\nVerteiltes Wissen.",
       "eyebrow": "03 / Die Ausgangslage",
-      "message": "Jeder Informationsbruch kostet Zeit und Verlässlichkeit.",
+      "message": "16 von 20 qualifizierten Anfragen werden nie Partner.",
       "seconds": 90,
       "criteria": [
         "V1",
         "V3"
       ],
-      "notes": "Die heutige Landschaft besteht aus einer einsprachigen Website, ERP, Excel und E-Mails. Monatlich gehen 80 Partneranfragen ein, davon sind 20 qualifiziert. Nach 90 Tagen entstehen vier neue Partner; die genaue Kohortendefinition klären wir in der Discovery. Die erste persönliche Antwort dauert im Median vier Arbeitstage. Bei 1200 Bestellungen werden 40 Prozent manuell übertragen, mit zwölf Minuten je Übertragung. Das sind 96 Stunden monatlich. Beim Service sind 35 Prozent von 200 Fällen zunächst unvollständig. Die Klärung dauert im Median sechs Arbeitstage. Diese Werte beschreiben das Problem, sie beweisen noch keine Ursache. Wir prüfen deshalb Prozesse, Datenqualität und Zuständigkeiten zusammen mit den Mitarbeitenden.",
-      "cue": "Zahlen erklären; Originalprüfung als offen benennen.",
+      "speaker": "Anya",
+      "notes": "Drei Zahlen aus Ihrem Alltag. Erstens: 80 Anfragen pro Monat, 20 davon qualifiziert, vier werden Partner. Die erste persönliche Antwort kommt nach vier Arbeitstagen. 16 gute Anfragen gehen verloren. Zweitens: 1’200 Bestellungen pro Monat. 40 Prozent tippt jemand von Hand ins ERP, zwölf Minuten pro Bestellung. Das sind 96 Stunden jeden Monat. Drittens: 200 Servicefälle, 35 Prozent kommen unvollständig an. Die Klärung dauert sechs Arbeitstage. Marco war einer dieser Fälle. Was wir noch nicht wissen: Liegt die langsame Antwort am Werkzeug oder an der Besetzung in der Heizsaison? Das messen wir im Pilot. Damit übergebe ich an Sila. Jetzt geht es darum, wo die Zeit verloren geht.",
+      "cue": "Pro Zahl ein Atemzug Pause. Offene Annahme (Saison oder Werkzeug) klar benennen.",
       "proof": "src/data/case.ts; docs/case-facts.md"
     },
     {
       "title": "Eine Beziehung.\nSechs Momente.",
       "eyebrow": "04 / Customer Journey",
-      "message": "Erleben Sie den Weg vom ersten Kontakt bis zur Lösung.",
+      "message": "Vom ersten Kontakt bis zum gelösten Schaden: Marcos Weg.",
       "seconds": 90,
       "criteria": [
         "V4",
         "A1"
       ],
-      "notes": "Folgen wir einem neuen Partner und Marco durch die Miniaturwelt: Entdecken, qualifizieren, bestellen, liefern, Service und Abschluss. Die Anfrage wandert vom Showroom ins Vertriebsbüro. PartnerConnect gibt ihr eine verantwortliche Person. Später führt das Portal Bestellungen zum ERP. Bei einer beschädigten Scheibe bleibt die Historie erhalten. Die Räume zeigen Arbeitskontexte, keine erfundene reale Infrastruktur. Die Bestellfunktion ist eine spätere Ausbaustufe. Für den Pitch zeigen wir die wichtigsten Kapitel; der Film und die freie Ansicht stehen für die Diskussion bereit.",
-      "cue": "Kapitel 1, 3 und 5 zeigen. Film optional statt Live-Fahrt.",
-      "proof": "src/components/Journey.tsx; public/media/calada-customer-journey.mp4"
+      "speaker": "Sila",
+      "notes": "Wir gehen Marcos Weg in sechs Momenten. Er entdeckt Caleira im Showroom. Seine Anfrage landet im Vertrieb. Er bestellt. Die Ware wird geliefert. Die Scheibe springt. Der Fall wird gelöst. Das ist der Customer Lifecycle von der ersten Aufmerksamkeit bis zur Bindung. An drei dieser Momente bleiben wir heute live stehen: Partner gewinnen, bestellen, Servicefall. Achten Sie darauf, wie oft die Information die Hand wechselt.",
+      "cue": "Kapitel 1, 3 und 5 anklicken. Film nur, wenn die Live-Fahrt stockt.",
+      "proof": "src/components/Journey.tsx; public/media/caleira-customer-journey.mp4"
     },
     {
       "title": "Die Lücke liegt\nzwischen den Systemen.",
       "eyebrow": "05 / Reibung sichtbar machen",
-      "message": "Information ist vorhanden. Verantwortung ist nicht durchgängig sichtbar.",
+      "message": "Die Information ist da. Nur weiss niemand, wer zuständig ist.",
       "seconds": 60,
       "criteria": [
         "V1",
         "V2"
       ],
-      "notes": "Ein Mail kann korrekt sein und trotzdem im falschen Postfach liegen. Eine Excel-Liste kann vollständig sein und trotzdem eine alte Version zeigen. Das ERP kann den Auftrag kennen, ohne dass die Serviceperson den Kontaktverlauf sieht. Deshalb lösen wir drei Probleme: unklare Zuständigkeit, manuelle Übergaben und fehlende Angaben. Wir verändern Prozesse und Arbeitsregeln gemeinsam mit der Technik. Im MVP priorisieren wir Partnerübersicht, Akquise, Service und Integration. Die Bestellautomatisierung folgt erst nach stabilen Grundlagen.",
+      "speaker": "Sila",
+      "notes": "Marcos Bestellung steht korrekt im ERP. Sein Mail mit dem Schaden liegt in einem persönlichen Postfach. Die Excel-Liste mit den Garantiefällen führt jemand in Chur. Jedes System stimmt für sich. Dazwischen geht die Verantwortung verloren. Das kostet Sie drei Dinge: Zeit, Partner und Vertrauen. Ein neues Feature löst das nicht. Es braucht eine gemeinsame Sicht und klare Übergaben zwischen Marketing, Vertrieb und Service. Das ist mehr als Digitalisierung. Es verändert, wie Sie zusammenarbeiten.",
       "cue": "Vorher/Nachher umschalten.",
       "proof": "docs/requirements-matrix.md"
     },
     {
       "title": "PartnerConnect.\nNähe wird systematisch.",
       "eyebrow": "06 / Unser Vorschlag",
-      "message": "CRM plus bestehendes ERP. Eine gemeinsame Sicht auf den Partner.",
+      "message": "Salesforce für die Beziehung. Das ERP bleibt führend.",
       "seconds": 60,
       "criteria": [
         "R1",
         "R7",
         "M1"
       ],
-      "notes": "PartnerConnect ist die CRM-gestützte Arbeitsumgebung für Calanda. Das CRM führt Leads, Chancen, Aktivitäten, Zuständigkeiten und Service. Das ERP behält die Hoheit über Produkte, Preise, Partnerstammdaten und Bestellungen. Im MVP verbinden wir diese Informationen über Referenzen und nachvollziehbare Synchronisation. Website, Marketing, Portal und KI entwickeln wir gestaffelt. Wir schlagen einen anbieterneutralen Pilot vor. Die konkrete Produktauswahl folgt den geprüften Integrationsmöglichkeiten und den verbindlichen Kostenobergrenzen.",
-      "cue": "MVP und Ausbaustufen klar unterscheiden.",
-      "proof": "docs/requirements-matrix.md"
+      "speaker": "Sila",
+      "notes": "Unser Vorschlag heisst PartnerConnect und läuft auf Salesforce. Sales Cloud führt Anfragen, Partner und Verkaufschancen. Service Cloud führt die Fälle. Ihr ERP bleibt führend für Produkte, Preise, Partnerstammdaten und Bestellungen. Warum Salesforce? Vertrieb, Service und später das Partnerportal laufen auf derselben Plattform. Marco und Ihr Service sehen denselben Fall. In sechs Monaten liefern wir vier Bausteine: Partnerübersicht, Lead-Prozess, Service und die Anbindung ans ERP. Marketing, Website, Portal und KI folgen gestaffelt. Wie das im Alltag aussieht, zeigt Ihnen jetzt Altina. Wir gehen ein Jahr zurück, zu Marcos erster Anfrage.",
+      "cue": "MVP-Bausteine und spätere Stufen zeigen. Übergabe an Altina.",
+      "proof": "docs/architecture.md; docs/platform-decision.md"
     },
     {
       "title": "Aus Interesse\nwird Partnerschaft.",
-      "eyebrow": "07 / Live-Demo A · R2",
-      "message": "Kein Lead ohne nächste Handlung und verantwortliche Person.",
+      "eyebrow": "07 / Journey 1 · Partner gewinnen",
+      "message": "Kein Lead ohne nächsten Schritt und verantwortliche Person.",
       "seconds": 150,
       "criteria": [
         "R2",
         "A2"
       ],
-      "notes": "Wir starten mit Ofenbau Nord aus Hamburg. Senden Sie die vorbereitete Anfrage ab. Das System normalisiert die E-Mail und prüft eine mögliche Dublette. Wiederholen Sie die Anfrage, um die Erkennung zu zeigen. Wir prüfen Fachbetrieb, Region und Interesse, ordnen Hamburg zu und vergeben eine persönliche Aufgabe mit Termin. Demonstrieren Sie danach die Abwesenheit der verantwortlichen Person und die Übergabe an die Stellvertretung. Erst nach Qualifikation entsteht eine Verkaufschance. Nach dokumentierter Freigabe simulieren wir eine ERP-Partnernummer. Dieser letzte Schritt ist ausdrücklich keine echte ERP-Anbindung. Entscheidend sind der nachvollziehbare Status, die Zuständigkeit und der nächste Kontakt. Fragen Sie die Geschäftsleitung, ob diese Schritte ihrer heutigen Freigabelogik entsprechen.",
-      "cue": "Anfrage → Dublette → Qualifikation → Aufgabe → Vertretung → Chance → Freigabe.",
+      "speaker": "Altina",
+      "notes": "Ich zeige Ihnen drei Dinge: wie Marcos Anfrage eingeht, wie wir sie qualifizieren und was passiert, wenn die zuständige Person fehlt. Marco füllt das Formular auf der Website aus. In Salesforce entsteht ein Lead. Schickt er die Anfrage ein zweites Mal, erkennt das System die Dublette. Jetzt die Qualifikation mit drei festen Kriterien: Fachbetrieb, Region, Sortimentsinteresse. Erfüllt. Der Lead geht an den Standort Locarno, zu Giulia Rossi. Sie spricht Italienisch, wie Marco. Sie bekommt eine Aufgabe: Erstgespräch am nächsten Arbeitstag. Giulia ist krank. Die Aufgabe geht an ihren Stellvertreter, nicht in ein leeres Postfach. Nach dem Gespräch wird aus dem Lead ein Partnerkonto, ein Kontakt und eine Verkaufschance. Nach der Freigabe legt das ERP die Partnernummer an. Was Sie gesehen haben: ein Arbeitstag statt vier, und zu jedem Zeitpunkt ist klar, wer dran ist.",
+      "cue": "Anfrage → Dublette → Qualifikation → Locarno → Aufgabe → Vertretung → Verkaufschance → Freigabe. Am Schluss Nutzen in einem Satz.",
       "proof": "src/components/Demos.tsx; src/lib/demo.ts"
     },
     {
       "title": "Marco.\nMit allem, was zählt.",
-      "eyebrow": "08 / Partner 360° · R1",
+      "eyebrow": "08 / Partnerübersicht",
       "message": "Eine gemeinsame Historie statt vier persönlicher Postfächer.",
       "seconds": 60,
       "criteria": [
         "R1",
         "R7"
       ],
-      "notes": "Die Partnerübersicht verbindet ERP-Referenz, Standort, Betreuung, Aktivitäten, Bestellungen und Tickets. Die Beispielwerte sind fiktive Testdaten. Partnerstammdaten werden hier nicht stillschweigend im CRM geändert. Eine Stammdatenänderung würde als geprüfter Änderungsauftrag zum ERP gehen. Vertrieb und Service sehen die für ihre Aufgaben erforderlichen Informationen. Partnerpreise bleiben im späteren Portal auf den authentifizierten Partner beschränkt. Standortübergreifende Vertretung bedeutet definierte Berechtigung, nicht freien Zugriff auf alles.",
-      "cue": "Register wechseln und Historie zeigen.",
+      "speaker": "Altina",
+      "notes": "Ein Jahr später ist Marco aktiver Partner. Das ist seine Übersicht. Oben sein Betrieb und seine Kontaktperson. Daneben seine Bestellungen aus dem ERP, seine Servicefälle und der eingebaute Ofen als Asset mit Garantie. Die Stammdaten kommen aus dem ERP und werden hier nur gelesen. Dubletten verhindern wir über die ERP-Partnernummer und die E-Mail-Adresse. Unklare Treffer entscheidet ein Mensch. Wer Marco am Telefon hat, sieht alles auf einer Seite. Vivienne zeigt Ihnen jetzt, wie Marco bestellt.",
+      "cue": "Register Übersicht, Bestellungen, Service, Historie. Datenquelle und Dublettenregel zeigen.",
       "proof": "src/components/Partner.tsx"
     },
     {
       "title": "Vier Öfen.\nEine sichere Übergabe.",
-      "eyebrow": "09 / Live-Demo B · R4 · später",
-      "message": "Bestellungen entstehen einmal. Auch wenn die Verbindung ausfällt.",
+      "eyebrow": "09 / Journey 2 · Bestellung",
+      "message": "Jede Bestellung kommt genau einmal im ERP an.",
       "seconds": 180,
       "criteria": [
         "R4",
         "R7"
       ],
-      "notes": "Diese Demo gehört zur späteren Zielentwicklung R4, nicht zum sechsmonatigen MVP. Marco meldet sich über einen lokalen Demo-Login an. Er sieht einen personalisierten Katalog und fiktive Partnerpreise aus einem simulierten ERP-Abzug. Öffnen Sie ein Produkt, legen Sie vier Öfen in den Warenkorb und bearbeiten Sie die Menge. Aktivieren Sie den Schnittstellenfehler und senden Sie die Bestellung. Der Auftrag behält seine eindeutige Transaktionskennung. Beim Wiederholen verwendet das System dieselbe Kennung. Dadurch entstehen in der lokalen Simulation keine Doppelaufträge. Zeigen Sie Bestellhistorie und Lieferstatus. Eine echte Integration muss dieselbe Sicherheit auch serverseitig garantieren. Dafür sind ERP-Funktionen, Rechte, Fehlerklassen und Wiederholungsregeln zuerst technisch zu prüfen.",
-      "cue": "Login → Produkt → vier Stück → Fehler → Übertragung → Retry → Lieferstatus.",
-      "proof": "src/lib/demo.ts; tests/pitch.spec.ts"
+      "speaker": "Vivienne",
+      "notes": "Das ist die zweite Ausbaustufe, das Partnerportal. Ich zeige: Login, Bestellung und was bei einer Störung passiert. Marco meldet sich an. Er sieht seinen Katalog mit seinen Preisen. Die Preise kommen aus dem ERP. Neben den Öfen stehen Ersatzteile. Sie machen den grossen Teil der 1’200 Bestellungen aus. Marco legt vier Öfen in den Warenkorb und schickt ab. Jetzt fällt die Verbindung zum ERP aus. Die Bestellung geht nicht verloren. Sie behält ihre Kennung und wartet. Beim zweiten Versuch erkennt das ERP dieselbe Kennung. Es gibt eine Bestellung, nicht zwei. Marco sieht den Status bis zur Lieferung. Was das bringt: Heute tippt jemand 480 Bestellungen pro Monat ab. Das sind die 96 Stunden. Warum das nicht im MVP ist, zeigt Ihnen später die Roadmap.",
+      "cue": "Login → Produkt → vier Stück → Fehler an → absenden → Fehler aus → erneut übertragen → Status. Ersatzteil kurz zeigen.",
+      "proof": "src/components/Demos.tsx; tests/pitch.spec.ts"
     },
     {
       "title": "Ein Schaden.\nKein verlorener Faden.",
-      "eyebrow": "10 / Live-Demo C · R5",
-      "message": "Jeder Servicefall hat eine Geschichte, eine Zuständigkeit und ein Ende.",
+      "eyebrow": "10 / Journey 3 · Servicefall",
+      "message": "Dieselbe Kältewoche. Diesmal weiss Caleira Bescheid.",
       "seconds": 210,
       "criteria": [
         "R5",
         "R8"
       ],
-      "notes": "Marco meldet eine beschädigte Glasscheibe. Der Fall wird seinem Partnerkonto und einer Bestellung zugeordnet. Zunächst fehlt ein Schadensfoto. Das Ticket kann deshalb nicht einfach abgeschlossen werden. Erstellen Sie eine Rückfrage, ergänzen Sie das lokale Testfoto und weisen Sie den Fall einer Serviceperson zu. Wechseln Sie in Bearbeitung und lösen Sie die Eskalation aus. Eskalation ist eine sichtbare Zuständigkeitsänderung, keine rote Farbe ohne Wirkung. Dokumentieren Sie den Ersatzversand, bestätigen Sie die simulierte Partnerbenachrichtigung und schliessen Sie das Ticket. Die Historie zeigt jeden Übergang. In der echten Einführung werden Fristen, Vertretung und Benachrichtigungen gemeinsam vereinbart. Im MVP beginnt die Klassifikation regelbasiert; KI bleibt eine spätere, überprüfbare Option.",
-      "cue": "Ticket → Rückfrage → Foto → Zuweisung → Eskalation → Lösung → Nachricht → Abschluss.",
-      "proof": "src/components/Demos.tsx; src/lib/demo.ts"
+      "speaker": "Vivienne",
+      "notes": "Zurück in die Kältewoche, diesmal mit PartnerConnect. Ich zeige: Erfassung, fehlende Angaben, Eskalation und Rückmeldung. Marco meldet die gesprungene Scheibe. Der Fall hängt an seinem Partnerkonto, an der Bestellung und am eingebauten Ofen. Das System prüft die Pflichtangaben. Das Foto fehlt. Früher begann hier das Hin und Her. Jetzt geht sofort eine Rückfrage an Marco. Er lädt das Foto hoch. Der Fall ist vollständig und geht an Sofia Keller im Service. Sie startet die Prüfung. Es ist Heizsaison, die Kundin hat keine Wärme. Sofia eskaliert an die Serviceleitung. Die Ersatzscheibe geht am selben Tag raus. Marco bekommt die Nachricht, auf Italienisch. Erst dann wird der Fall geschlossen. Jeder Schritt steht in der Historie. Ein gut gelöster Schaden bindet einen Partner stärker als ein Kauf ohne Problem. Das ist der Kern unseres Vorschlags. Josh zeigt Ihnen, was dahinter liegt.",
+      "cue": "Fall erfassen → Rückfrage → Foto → Zuweisung → Bearbeitung → Eskalation → Lösung → Nachricht → Abschluss. Schlusssatz langsam.",
+      "proof": "src/components/Demos.tsx; src/lib/demo.test.ts"
     },
     {
       "title": "Zur richtigen Zeit.\nMit gutem Grund.",
-      "eyebrow": "11 / Marketing Journey · R3 · später",
-      "message": "Relevanz entsteht aus Daten und nachweisbarer Kommunikationsberechtigung.",
+      "eyebrow": "11 / Marketing Journey",
+      "message": "Acht Wochen vor der Heizsaison melden wir uns. Nicht mittendrin.",
       "seconds": 60,
       "criteria": [
         "R3"
       ],
-      "notes": "Das Segment umfasst aktive Partner ohne Bestellung seit 90 Tagen. Status und Bestelldatum stammen aus dem ERP, Kontaktpräferenzen aus dem CRM. Der Versand setzt eine geprüfte Kommunikationsberechtigung, gültige Adresse und fehlende Abmeldung voraus. Die Vorschau spricht Marco persönlich an und bietet Unterstützung an. Eine neue Bestellung oder Abmeldung beendet die Journey sofort. Wir messen zugestellte Kontakte, Reaktionen und spätere Bestellungen in der definierten Kohorte. Ein Vergleich mit einer geeigneten Kontrollgruppe verhindert, dass wir jede Bestellung der E-Mail zuschreiben. In dieser Demo wird keine Nachricht verschickt.",
-      "cue": "Berechtigung, Bestellung und Abmeldung als Sperren testen.",
+      "speaker": "Josh",
+      "notes": "Öfen sind ein Saisongeschäft. Wer im November bestellt, ist spät dran. Unsere Journey hat ein Segment: aktive Partner, die seit 90 Tagen nichts bestellt haben. Ein Auslöser: acht Wochen vor Saisonstart. Und eine E-Mail an Marco mit einem Beratungsangebot. Bestelldatum und Status kommen aus dem ERP, die Einwilligung aus Salesforce. Bestellt Marco oder meldet er sich ab, stoppt die Journey sofort. Den Erfolg messen wir an den Bestellungen der angeschriebenen Partner im Vergleich zu einer Kontrollgruppe.",
+      "cue": "Neue Bestellung und Abmeldung als Stopp zeigen.",
       "proof": "src/components/Details.tsx"
     },
     {
       "title": "Zwei Zielgruppen.\nZwei klare Wege.",
-      "eyebrow": "12 / Website & Content · R6 · später",
-      "message": "Inspiration für Endkunden. Werkzeuge für Fachpartner.",
+      "eyebrow": "12 / Website und Inhalte",
+      "message": "Die Bauherrin findet ihren Ofenbauer. Der Ofenbauer findet uns.",
       "seconds": 60,
       "criteria": [
         "R6"
       ],
-      "notes": "Die bestehende Website ist einsprachig. Die spätere Erweiterung trennt B2B und private Besucher. Fachpartner finden Sortiment, technische Dokumentation, Ansprechpartner, Bewerbung und Login. Private Besucher gelangen von Inspiration über ein Modell zur Fachpartnersuche. Es gibt keinen direkten B2C-Checkout. Zeigen Sie einen Pfad und wechseln Sie in die lokale Redaktionsansicht. Eine Inhaltsänderung wird in der Vorschau sichtbar. Diese Ansicht demonstriert Pflegefähigkeit, ersetzt aber noch kein produktives CMS. Übersetzungen, Freigaben und Verantwortlichkeiten werden nach dem MVP geplant.",
-      "cue": "B2C-Modell → Fachpartner; danach Titel im CMS bearbeiten.",
+      "speaker": "Josh",
+      "notes": "Die Website bekommt zwei Eingänge. Die Bauherrin sieht Inspiration, wählt ein Modell und landet bei einem Fachpartner in ihrer Nähe. Sie kauft nicht bei Caleira. So bleibt Marco im Geschäft. Der Ofenbauer findet Sortiment, Unterlagen und das Bewerbungsformular. Diese Führung ist bewusst so gewählt: Jeder Weg endet bei einer Handlung, die dem Partner nützt. Ihr Team pflegt die Inhalte selbst, wie Sie hier sehen. Und die Seite wird dreisprachig: Deutsch, Italienisch, Französisch. Heute liest Marco Ihre Website in einer Fremdsprache.",
+      "cue": "Endkundenweg bis Fachpartner. Dann Headline im Editor ändern.",
       "proof": "src/components/Details.tsx"
     },
     {
       "title": "Ein klarer Kern.\nSaubere Verbindungen.",
-      "eyebrow": "13 / Systeme & Daten · R7",
-      "message": "Das ERP bleibt führend. Das CRM macht Zusammenarbeit sichtbar.",
+      "eyebrow": "13 / Systeme und Daten",
+      "message": "Das ERP führt die Stammdaten. Salesforce führt die Beziehung.",
       "seconds": 120,
       "criteria": [
         "R7"
       ],
-      "notes": "Klicken Sie zuerst das ERP an. Es führt Produkte, Preise, Partnerstammdaten und Bestellungen. Das CRM führt Leads, Chancen, Aktivitäten und Tickets. Die Integrationsschicht transportiert versionierte Nachrichten mit Quellreferenz und Transaktionskennung. Wir behaupten keine vorhandene ERP-API. Im zweiten Monat prüfen wir verfügbare Schnittstellen, Exportmöglichkeiten, Lizenzfolgen und Testzugänge. Jede Synchronisation bekommt Status, Zeitstempel und Fehlerprotokoll. Nicht verarbeitbare Nachrichten landen in einer kontrollierten Fehlerliste. Partnerpreise werden serverseitig autorisiert, nicht nur in der Oberfläche versteckt. Rollen für Vertrieb, Service, Integration und Administration werden mit minimalen Rechten getestet. Datenbereinigung, Dublettenentscheidung, Aufbewahrung und Löschung erhalten eigene Verantwortliche. Die Demo arbeitet vollständig lokal und beweist die Abläufe, noch keine Produktionssicherheit.",
-      "cue": "ERP, Integration, CRM und Portal anklicken.",
-      "proof": "docs/architecture.md"
+      "speaker": "Josh",
+      "notes": "Drei Regeln halten die Architektur zusammen. Erstens: Jede Information hat ein führendes System. Produkte, Preise, Partnerstammdaten und Bestellungen bleiben im ERP. Anfragen, Verkaufschancen, Kontakte und Fälle führt Salesforce. Zweitens: Zwischen beiden steht eine Integrationsschicht. Jede Übertragung hat eine Kennung, einen Zeitstempel und einen Status. Schlägt etwas fehl, landet es in einer Fehlerliste mit einer zuständigen Person. Das haben Sie bei der Bestellung gesehen. Drittens: Rechte folgen der Aufgabe. Der Vertrieb sieht seine Partner, der Service die Fälle, Marco nur seine eigenen Daten und Preise. Offen ist, welche Schnittstellen Ihr ERP anbietet. Das klären wir im zweiten Monat, bevor wir bauen. Für die Datenqualität benennen Sie eine verantwortliche Person, die über Dubletten entscheidet.",
+      "cue": "ERP, Integration, Salesforce und Portal anklicken.",
+      "proof": "docs/architecture.md; src/components/Details.tsx"
     },
     {
       "title": "KI verdient\neinen Beweis.",
-      "eyebrow": "14 / Managemententscheid · R8 · später",
-      "message": "Mit Regeln starten. KI nur einführen, wenn der Pilot überzeugt.",
+      "eyebrow": "14 / KI-Entscheid",
+      "message": "Mit Regeln starten. KI nur, wenn der Pilot überzeugt.",
       "seconds": 60,
       "criteria": [
         "R8"
       ],
-      "notes": "Beim gleichen Schadenfall liefert eine Regel die Kategorie Glasbruch. Eine KI könnte zusätzlich einen Antwortentwurf liefern, braucht aber geeignete Daten, eine Anbieterprüfung und manuelle Kontrolle. Unser Vorschlag ist ein späterer Test mit 100 de-identifizierten, repräsentativen und fachlich gelabelten Fällen, getrennt von Entwicklungsbeispielen. Annahmen für die Entscheidung: mindestens 90 Prozent richtige Klassifikation, keine kritischen Fehler und mindestens 20 Prozent weniger Bearbeitungszeit inklusive Prüfung. Jeder Vorschlag wird vor Versand freigegeben. Bei Nichterreichen verzichten wir auf KI und behalten die Regeln. Die hier gezeigte Antwort ist ein vorbereiteter Demo-Vorschlag, kein angebundener KI-Dienst.",
-      "cue": "Regel und KI vergleichen; manuelle Prüfung bestätigen.",
-      "proof": "docs/assumptions.md; src/components/Details.tsx"
+      "speaker": "Josh",
+      "notes": "Nehmen wir noch einmal Marcos Scheibe. Eine einfache Regel erkennt Glasbruch und leitet den Fall an den Service. Das genügt für den Start. Eine KI könnte zusätzlich die Antwort an Marco vorschreiben. Dafür braucht sie Ihre Falldaten, und ein Mensch gibt jede Antwort frei. Unser Vorschlag: nach dem MVP ein Test mit 100 echten, anonymisierten Fällen. Mindestens 90 Prozent richtig eingeordnet, kein kritischer Fehler, 20 Prozent weniger Bearbeitungszeit. Erreichen wir das nicht, bleiben wir bei den Regeln. Was das alles bringt, rechnet Ihnen Maik vor.",
+      "cue": "Regel und KI-Vorschlag vergleichen, manuell freigeben. Übergabe an Maik.",
+      "proof": "src/components/Details.tsx; docs/assumptions.md"
     },
     {
       "title": "Erfolg wird\nvorher definiert.",
-      "eyebrow": "15 / Drei messbare Ziele",
-      "message": "Keine Wirkung ohne Messung. Keine Zuschreibung ohne Kontext.",
+      "eyebrow": "15 / Drei Kennzahlen",
+      "message": "Vier Tage werden einer. Vier Partner werden sechs. 35 Prozent werden 15.",
       "seconds": 60,
       "criteria": [
         "V2",
         "V3",
         "M2"
       ],
-      "notes": "Drei vorgeschlagene Ziele: die persönliche Antwort von vier auf einen Arbeitstag, neue Partner nach 90 Tagen von vier auf sechs und unvollständige Servicefälle von 35 auf 15 Prozent. Die Ziele sind Annahmen. Wir messen mit Ereigniszeitstempeln und festen Kohorten. Vertriebsleitung verantwortet die ersten beiden Kennzahlen, Serviceleitung die dritte. Der Pilot erhebt Ausgangslage, Volumen, Personalbesetzung und Prozessänderungen. CRM allein verursacht keine Verbesserung. Bei fehlender Datenqualität oder zu kleinen Kohorten verlängern wir die Messung, statt Erfolg zu behaupten.",
-      "cue": "KPI-Definitionen aufklappen.",
+      "speaker": "Maik",
+      "notes": "Ihr Ziel ist ein Partnervertrieb, der wächst und verlässlich ist. Daraus leiten wir drei Kennzahlen ab. Die erste persönliche Antwort: von vier Arbeitstagen auf einen. Neue Partner nach 90 Tagen: von vier auf sechs. Unvollständige Servicefälle: von 35 auf 15 Prozent. Die Ziele sind unsere Annahme und werden im ersten Monat mit Ihnen festgelegt. Gemessen wird in Salesforce, verantwortlich sind die Vertriebsleitung und die Serviceleitung. Wir vergleichen mit dem gleichen Monat des Vorjahres. Sonst misst man die Saison und nicht die Lösung.",
+      "cue": "KPI anklicken, Definition und Verantwortung zeigen.",
       "proof": "src/components/Details.tsx; docs/assumptions.md"
     },
     {
       "title": "Was wird frei?\nWas wird wirklich gespart?",
-      "eyebrow": "16 / Live Business Case",
-      "message": "Kapazität ist ein Potenzial. Einsparung ist eine zusätzliche Annahme.",
+      "eyebrow": "16 / Nutzenrechnung",
+      "message": "96 Stunden pro Monat sind Kapazität. Noch keine Einsparung.",
       "seconds": 150,
       "criteria": [
         "V2",
         "V3",
         "A3"
       ],
-      "notes": "Starten Sie mit der MVP-Perspektive. Hier sind Lead- und Servicewirkung messbar, aber mangels Zeit- und Erlösdaten nicht seriös monetarisiert. Wechseln Sie dann zum späteren Bestellportal. Die Ausgangsrechnung lautet 1200 mal 40 Prozent mal zwölf Minuten: 96 Stunden im Monat, bewertet mit 60 Franken gleich 5760 Franken. Das ist der theoretische Kapazitätswert, keine garantierte Einsparung. Verändern Sie den Automatisierungsgrad. Bei 60 Prozent werden 57,6 Stunden frei. Erst wenn Sie ausdrücklich einen kostenwirksamen Anteil setzen, berechnet das Modell Kosteneinsparungen. Vergleichen Sie konservativ, Basis und optimistisch. Die Portalzusatzkosten sind unbekannt. Deshalb gibt es keinen behaupteten Portal-ROI oder Amortisationszeitpunkt. Das MVP-Budget wird separat ausgewiesen. Die Geschäftsleitung kann den Nutzen so diskutieren, ohne Scheingenauigkeit zu bekommen.",
-      "cue": "MVP → Portal → Slider → realisierbaren Anteil → Reset.",
+      "speaker": "Maik",
+      "notes": "Zuerst das MVP. 40 unvollständige Fälle weniger pro Monat. Bei 20 Minuten Rückfrage pro Fall sind das gut 13 Stunden, rund 800 Franken Kapazitätswert. Und zwei Partner mehr pro Quartal sind acht im Jahr. Ein Partner bestellt heute im Schnitt 96 Mal pro Jahr. Das sind rund 770 zusätzliche Bestellungen. Die 20 Minuten sind unsere Annahme. Jetzt der grosse Hebel, das Portal. 1’200 Bestellungen, 40 Prozent von Hand, zwölf Minuten: 96 Stunden pro Monat. Mit 60 Franken bewertet sind das 5’760 Franken. Ich stelle den Automatisierungsgrad auf 60 Prozent: 57,6 Stunden werden frei. Das ist Kapazität, keine Einsparung. Gespart ist erst, was Sie nicht mehr bezahlen. Diesen Anteil stellen Sie hier selbst ein. Welcher Wert ist für Sie realistisch?",
+      "cue": "MVP-Reiter → Portal-Reiter → Automatisierung 60 % → Anteil «kostenwirksam» mit der Geschäftsleitung einstellen → Reset.",
       "proof": "src/lib/business.ts; src/lib/business.test.ts"
     },
     {
       "title": "Sechs Monate.\nKlare Entscheidungen.",
       "eyebrow": "17 / Der Weg zum MVP",
-      "message": "Freigaben an nachweisbare Ergebnisse binden.",
+      "message": "Jeder Monat endet mit einer Freigabe durch Sie.",
       "seconds": 90,
       "criteria": [
         "M1",
         "M2",
         "P1"
       ],
-      "notes": "Monat eins klärt Prozesse, Daten und Anforderungen. Monat zwei prüft die Integration und nimmt das Datenmodell ab. Monat drei liefert Partnerübersicht und Leadprozess. Monat vier ergänzt Service, ERP-Referenzen und Berechtigungstests. Monat fünf pilotiert mit angenommenen acht Mitarbeitenden und zehn Partnern. Monat sechs umfasst Rollout, Schulung, Abnahme und Betriebsübergabe. Jedes Tor hat ein sichtbares Kriterium und eine Kundenrolle. Schlägt ein kritischer Integrationstest fehl, gibt es keine Rollout-Freigabe. Verfehlte Pilotziele führen zu Ursachenanalyse, Nachbesserung und erneuter Messung. Reicht die Reserve nicht, entscheidet der Lenkungsausschuss über Umfang oder Termin. R3, R4, R6 und R8 werden separat beauftragt.",
-      "cue": "Monate anklicken; Gate und Verantwortliche zeigen.",
+      "speaker": "Maik",
+      "notes": "Sechs Monate, sechs Freigaben. Monat eins: Prozesse und Kennzahlen. Monat zwei: die Schnittstelle zum ERP ist getestet. Das ist das wichtigste Tor. Monat drei: Partnerübersicht und Lead-Prozess. Monat vier: Service. Monat fünf: Pilot mit acht Mitarbeitenden und zehn Partnern. Monat sechs: Schulung, Abnahme und Übergabe in den Betrieb. Besteht ein Tor nicht, bessern wir nach und testen erneut. Zur Reihenfolge: Das Portal bringt die 96 Stunden, kommt aber nach dem MVP. Dafür gibt es zwei Gründe. Es braucht eine geprüfte Schnittstelle, die ins ERP schreibt. Und es braucht Lizenzen für 150 Partner, rund 3’750 Franken pro Monat. Das übersteigt das laufende MVP-Budget. Wir bauen zuerst das Fundament und bringen das Portal als eigenen Entscheid.",
+      "cue": "Monate anklicken, Tor und Verantwortliche zeigen. Reihenfolge R4 begründen.",
       "proof": "src/components/Details.tsx; docs/requirements-matrix.md"
     },
     {
       "title": "Begrenzt investieren.\nVerantwortlich umsetzen.",
-      "eyebrow": "18 / Budget, Menschen & Risiken",
-      "message": "CHF 145’000 geplant. CHF 2’600 im Monat. Beide Werte sind Schätzungen.",
+      "eyebrow": "18 / Kosten, Rollen und Risiken",
+      "message": "CHF 145’000 einmalig. CHF 2’600 pro Monat. Beides im Budget.",
       "seconds": 90,
       "criteria": [
         "P1",
         "P2"
       ],
-      "notes": "Die Modellplanung bleibt unter den Grenzen von 150000 Franken einmalig und 3000 Franken monatlich, exklusive Mehrwertsteuer. Die Integration ist mit 36000 Franken der grösste Posten; 11000 Franken sind Reserve. Monatlich planen wir 1200 Franken Lizenzen für angenommene 20 interne Nutzer, 400 Franken Infrastruktur und Monitoring sowie 1000 Franken Support. Es liegen keine Anbieterangebote vor. Der angenommene Kundenaufwand von 45 Personentagen wird separat geplant und ist keine externe Rechnung. Sponsor und Process Owner geben frei, Key User testen und schulen, die Agentur implementiert, dokumentiert und übergibt an den Betrieb. Drei Risiken stehen im Fokus: unklare ERP-Schnittstellen, Datenqualität und Akzeptanz. Jedes Risiko hat einen Frühindikator, eine Gegenmassnahme und einen Verantwortlichen.",
-      "cue": "Kosten, Rollen und drei Risiken öffnen.",
+      "speaker": "Maik",
+      "notes": "Das MVP kostet 145’000 Franken einmalig. Das sind 96 Personentage zu 1’400 Franken und eine Reserve von 10’600 Franken. Der grösste Posten ist die ERP-Integration mit 24 Tagen. Laufend sind es 2’600 Franken pro Monat: zwölf Salesforce-Lizenzen zu 100 Franken, 400 Franken für Integration und Überwachung, 1’000 Franken für Betrieb und Support. Zwölf Lizenzen reichen, weil im MVP nur Partnerbetreuung, Service und Leitung damit arbeiten. Von Ihnen brauchen wir 45 Personentage, vor allem für Tests und Pilot. Sie nehmen ab, wir übergeben in den Betrieb. Drei Risiken: die ERP-Schnittstelle, die Datenqualität und die Akzeptanz im Team. Jedes hat ein Frühwarnzeichen, eine Massnahme und eine verantwortliche Person. Für den Schluss zurück zu Anya.",
+      "cue": "Kosten, Rollen, drei Risiken öffnen. Übergabe an Anya.",
       "proof": "src/data/case.ts; docs/risks.md"
     },
     {
       "title": "Eine verlässliche\nBeziehung.",
-      "eyebrow": "19 / Der nächste Schritt",
+      "eyebrow": "19 / Ihr Entscheid",
       "message": "Vier Standorte. 150 Partner. Eine verlässliche Beziehung.",
       "seconds": 60,
       "criteria": [
@@ -244,14 +262,16 @@
         "A3",
         "A4"
       ],
-      "notes": "Kehren wir zu Marco zurück. Die Bestellung bleibt im ERP. PartnerConnect zeigt die Referenz, den Status, die zuständige Person und den Kontaktverlauf. Unser Antrag ist die Freigabe des sechsmonatigen MVP mit R1, R2, R5 und R7, einem Planbudget von 145000 Franken und monatlich 2600 Franken. Wir bitten um Benennung von Sponsor und Process Owner sowie Zugang zur technischen ERP-Abklärung. Der Pilot wird nur mit bestandenen Kriterien ausgerollt. Das Portal bleibt eine spätere Entscheidung. Vier Standorte. 150 Partner. Eine verlässliche Beziehung. Jetzt stehen 15 Minuten für Ihre Fragen bereit. Welche Bedingung ist für Ihre Freigabe am wichtigsten?",
-      "cue": "Entscheidungsantrag zeigen. Anschliessend 15 Minuten Gespräch.",
+      "speaker": "Anya",
+      "notes": "Erste Kältewoche, ein Jahr später. Marco steht wieder in einem Wohnzimmer. Wieder ist eine Scheibe gesprungen. Diesmal meldet er den Fall mit Foto. Am selben Tag weiss er, wer zuständig ist und wann die Scheibe kommt. Die Kundin heizt am Wochenende. Dafür bitten wir Sie heute um drei Dinge. Geben Sie das MVP frei: sechs Monate, 145’000 Franken, 2’600 Franken pro Monat. Benennen Sie eine verantwortliche Person für das Projekt und je eine für Vertrieb und Service. Und geben Sie uns bis Ende Januar Zugang zu Ihrem ERP-Verantwortlichen. Vier Standorte. 150 Partner. Eine verlässliche Beziehung. Welche Frage müssen wir beantworten, damit Sie heute entscheiden können?",
+      "cue": "Antrag zeigen. Danach 15 Minuten Gespräch: Frage zuerst zusammenfassen, dann antworten.",
       "proof": "docs/qa-preparation.md; docs/rubric-coverage.md"
     }
   ],
   "case": {
-    "company": "Calanda Feuertechnik AG",
-    "agency": "FELSGRAD",
+    "company": "Caleira AG",
+    "agency": "Super Trooper",
+    "platform": "Salesforce",
     "headquarters": "Chur",
     "employees": 70,
     "locations": [
@@ -296,11 +316,15 @@
       "R6",
       "R8"
     ],
-    "source": "Nutzerauftrag; FHGR-Originaldateien fehlen. Originalprüfung offen."
+    "source": "FHGR Pitch-Case 2026 (24.09.2026) und Bewertungsraster Pitch 2026; abgeglichen am 13.11.2026."
   },
   "plan": {
     "investment": 145000,
     "monthly": 2600,
+    "dayRate": 1400,
+    "days": 96,
+    "users": 12,
+    "userPrice": 100,
     "targets": {
       "responseDays": 1,
       "newPartners": 6,
@@ -308,45 +332,49 @@
     },
     "costs": [
       [
-        "Analyse & Konzeption",
-        18000
+        "Discovery & Konzeption · 12 PT",
+        16800
       ],
       [
-        "CRM-Konfiguration",
-        25000
+        "Sales Cloud: Partner & Lead · 15 PT",
+        21000
       ],
       [
-        "ERP-Integration",
-        36000
+        "Service Cloud: Cases · 12 PT",
+        16800
       ],
       [
-        "Serviceprozesse",
-        20000
+        "ERP-Integration · 24 PT",
+        33600
       ],
       [
-        "Datenmigration",
-        15000
+        "Datenmigration & Dubletten · 9 PT",
+        12600
       ],
       [
-        "Tests & Schulung",
-        12000
+        "Rechte, Sicherheit & Tests · 9 PT",
+        12600
       ],
       [
-        "Sicherheit & Rechte",
-        8000
+        "Schulung & Einführung · 8 PT",
+        11200
       ],
       [
-        "Reserve",
-        11000
+        "Projektleitung · 7 PT",
+        9800
+      ],
+      [
+        "Reserve · 7,9 %",
+        10600
       ]
     ],
     "recurring": [
       [
-        "Lizenzen · 20 interne Nutzer",
+        "Salesforce Pro Suite · 12 Nutzer × CHF 100",
         1200
       ],
       [
-        "Hosting & Monitoring",
+        "Integration & Monitoring",
         400
       ],
       [
@@ -354,6 +382,33 @@
         1000
       ]
     ],
+    "userSplit": [
+      [
+        "Partnerbetreuung Chur",
+        3
+      ],
+      [
+        "Partnerbetreuung Locarno, Hamburg, Paris",
+        3
+      ],
+      [
+        "Service",
+        4
+      ],
+      [
+        "Vertriebsleitung",
+        1
+      ],
+      [
+        "Administration / IT",
+        1
+      ]
+    ],
+    "followUp": {
+      "portalMonthly": 3750,
+      "portalPricePerPartner": 25,
+      "clarificationMinutes": 20
+    },
     "pilotEmployees": 8,
     "pilotPartners": 10,
     "clientDays": 45,
@@ -366,142 +421,162 @@
     [
       "R1",
       "Partnerübersicht",
+      "Zusätzlich Bestellungen/Fälle verbunden, Datenquelle und Dublettenbehandlung erklärt.",
       "08",
-      "Register Übersicht, Bestellungen, Service und Historie öffnen",
-      "src/components/Partner.tsx"
+      "Register Übersicht, Bestellungen, Service, Historie; Zeilen «Datenquelle» und «Dublettenregel»",
+      "Erfüllt. Asset und Datenquelle sichtbar."
     ],
     [
       "R2",
       "Lead und Verkaufschance",
+      "Zusätzlich klare Qualifikationskriterien, nächster Schritt und Vertretung bei Ausfall.",
       "07",
-      "Anfrage, Dublette, Qualifikation, Vertretung, Chance und ERP-Freigabe",
-      "src/components/Demos.tsx; src/lib/demo.ts"
+      "Anfrage, Dublette, drei Fit-Kriterien, Aufgabe, Stellvertretung, Konvertierung, Freigabe",
+      "Erfüllt."
     ],
     [
       "R3",
       "Marketing Journey",
+      "Zusätzlich Datenquelle, Versand-/Stoppregel, Abmeldung und Erfolgsmessung erklärt.",
       "11",
-      "Berechtigung ändern, Bestellung simulieren, Abmeldung prüfen",
-      "src/components/Details.tsx"
+      "Segment, Auslöser 8 Wochen vor Saison, E-Mail, Stopp bei Bestellung oder Abmeldung, Kontrollgruppe",
+      "Erfüllt."
     ],
     [
       "R4",
       "B2B-Bestellung",
+      "Zusätzlich ERP-Übergabe, Bestellhistorie und Behandlung einer fehlgeschlagenen Übergabe.",
       "09",
-      "Login, vier Öfen, Fehler, Retry, Doppelprüfung, Versand",
-      "src/components/Demos.tsx; tests/pitch.spec.ts"
+      "Login, Partnerpreis, Warenkorb, Störung, sichere Wiederholung, Status",
+      "Erfüllt."
     ],
     [
       "R5",
       "Serviceprozess",
+      "Zusätzlich fehlende Angaben, Eskalation und Information des Partners berücksichtigt.",
       "10",
-      "Foto-Rückfrage, Ergänzung, Zuweisung, Eskalation, Lösung und Abschluss",
-      "src/components/Demos.tsx; src/lib/demo.test.ts"
+      "Case mit Bezug zu Partner, Bestellung und Asset; Rückfrage, Eskalation, Nachricht, Abschluss",
+      "Erfüllt."
     ],
     [
       "R6",
       "Website und Inhalte",
+      "Zusätzlich konsistente Navigation, bearbeitbare Inhalte und begründete Nutzerführung.",
       "12",
-      "Zielgruppe wechseln, Fachpartner finden, Content ändern",
-      "src/components/Details.tsx"
+      "Zwei Eingänge, Weg zum Fachpartner, Editor; Begründung im Sprechtext",
+      "Erfüllt, Begründung mündlich."
     ],
     [
       "R7",
       "Systeme und Daten",
+      "Zusätzlich Rechte, Datenqualität und Verhalten bei Schnittstellenfehlern schlüssig.",
       "06, 09, 13",
-      "ERP und Integrationsschicht anklicken; sichere Wiederholung",
-      "docs/architecture.md; src/components/Details.tsx"
+      "Systembild mit Salesforce, Integrationsschicht, ERP; Fehlerliste; Rollen",
+      "Erfüllt."
     ],
     [
       "R8",
       "KI-Entscheid",
+      "Zusätzlich Prüfung, menschliche Verantwortung und messbarer Pilot. Auch begründeter Verzicht möglich.",
       "14",
-      "Regel und Vorschlag vergleichen; manuell bestätigen; Pilot-Gates",
-      "src/components/Details.tsx; docs/assumptions.md"
+      "Regel gegen KI-Vorschlag, manuelle Freigabe, Pilot mit drei Schwellen",
+      "Erfüllt."
     ],
     [
       "V1",
       "Problemverständnis",
-      "02, 03, 05",
-      "Case-Ausgangswerte und Informationsbrüche erläutern",
-      "docs/case-facts.md; src/data/case.ts"
+      "Zusätzlich Zielkonflikt, Unsicherheit und zu prüfende Annahme überzeugend behandelt.",
+      "02, 03",
+      "Zielkonflikt Wachstum gegen Verlässlichkeit; offene Annahme Saison oder Werkzeug",
+      "Erfüllt, lebt vom Vortrag."
     ],
     [
       "V2",
       "Nutzenlogik",
+      "Zusätzlich Alternativursache und Bedingungen des Nutzens konkret begründet.",
       "05, 15, 16",
-      "MVP und Portal trennen, Kapazität und Einsparung unterscheiden",
-      "src/lib/business.ts"
+      "Alternativursache Saison und Besetzung; Vorjahresvergleich als Bedingung",
+      "Erfüllt."
     ],
     [
       "V3",
       "Messung und Rechnung",
-      "03, 15, 16",
-      "96 Stunden reproduzieren, Parameter ändern, Methodik öffnen",
-      "src/lib/business.test.ts"
+      "Zusätzlich Verantwortliche, Zeitraum und Sensitivität. Kapazitätswert von Kosteneinsparung unterschieden.",
+      "15, 16",
+      "Drei KPIs mit Messweg und Verantwortung; MVP-Rechnung; Szenarien 30/60/90 %",
+      "Erfüllt."
     ],
     [
       "V4",
       "Pitch-Story",
-      "01, 04, 19",
-      "Marco-Hook, Journey, Abschluss und Entscheidungsantrag",
-      "src/content/scenes.ts; video/root.tsx"
+      "Zusätzlich klare Priorität und Entscheidungsaufforderung. Behauptungen durch passende Nachweise gestützt.",
+      "01, 07–10, 19",
+      "Marco durch alle drei Journeys; Kältewoche als Klammer; drei Bitten am Schluss",
+      "Erfüllt."
     ],
     [
       "M1",
       "MVP und Priorisierung",
+      "Zusätzlich Abhängigkeiten, Ausschlüsse und Gründe für Reihenfolge schlüssig.",
       "06, 17",
-      "R1/R2/R5/R7 im MVP; spätere Stufen begründen",
-      "docs/requirements-matrix.md"
+      "R1/R2/R5/R7 im MVP; Portal später wegen Schreib-Schnittstelle und Lizenzen",
+      "Erfüllt."
     ],
     [
       "M2",
       "Meilensteine und Entscheidungen",
-      "15, 17",
-      "Monats-Gates mit Rollen und Vorgehen bei Nichterreichen",
-      "src/components/Details.tsx"
+      "Zusätzlich messbare Freigabekriterien, verantwortliche Rollen und Anpassung bei verfehltem Pilotziel.",
+      "17",
+      "Sechs Tore mit Kriterium und Rolle; Vorgehen bei Nichtbestehen",
+      "Erfüllt."
     ],
     [
       "P1",
       "Zusammenarbeit und Einführung",
+      "Zusätzlich konkreter Kundenaufwand, Abnahmeverantwortung und Betrieb nach Projektende.",
       "17, 18",
-      "Rollen und Einführung öffnen; Aufwand und Betrieb erläutern",
-      "docs/operating-model.md"
+      "45 Personentage Kunde, Abnahme durch Sponsor, Betriebsmodell",
+      "Erfüllt."
     ],
     [
       "P2",
       "Kosten und Risiken",
+      "Zusätzlich Mengen/Raten, Folgekosten, Reserve und Verantwortliche für Risiken nachvollziehbar.",
       "18",
-      "Kosten und Risikomatrix; drei Risikodetails",
-      "src/data/case.ts; docs/risks.md"
+      "96 PT × CHF 1’400, 12 Lizenzen × CHF 100, Reserve, Portal-Folgekosten, drei Risiken mit Verantwortlichen",
+      "Erfüllt, Preise sind Annahmen."
     ],
     [
       "A1",
       "Verständlichkeit und Medien",
-      "01–19",
-      "19 Szenen, 3D, Film, PDF, reduzierte Bewegung",
-      "README.md; output/screenshots/"
+      "Zusätzlich gezielte Verdichtung und flüssige Medienführung. Auch Detailfragen lassen sich gut verorten.",
+      "alle",
+      "Eine Kernaussage je Szene; Demo-Backup für Details",
+      "Generalprobe nötig."
     ],
     [
       "A2",
       "Teamkoordination",
-      "07, 09, 10, alle",
-      "Moderationsrollen und Demo-Übergaben proben",
-      "docs/presenter-script.md"
+      "Zusätzlich Beiträge greifen ineinander, das Team unterstützt sich und löst Übergänge ohne Brüche.",
+      "alle",
+      "Sechs Sprechblöcke mit Übergabesätzen",
+      "Namen einsetzen, proben."
     ],
     [
       "A3",
       "Kundenorientierung",
-      "02, 16, 19",
-      "Annahmen live diskutieren und Freigabebedingungen erfragen",
-      "docs/qa-preparation.md"
+      "Zusätzlich fasst es das Anliegen korrekt zusammen und passt Erklärung oder Priorität daran an.",
+      "16, 19",
+      "Rückfrage an die Geschäftsleitung in Szene 16 und 19",
+      "Live-Leistung."
     ],
     [
       "A4",
       "Fragen und Einwände",
-      "19 + Anhang",
-      "15 Minuten Diskussion anhand vorbereiteter Fragen",
-      "docs/qa-preparation.md"
+      "Zusätzlich Alternativen abgewogen und konkrete Klärung vereinbart. Team beantwortet Einwände konsistent.",
+      "19 + Gespräch",
+      "Top-10-Fragen mit Antwort und zuständiger Person",
+      "Live-Leistung."
     ]
   ]
 }
