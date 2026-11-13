@@ -1,0 +1,11 @@
+CALANDA ALPIN 80 - FIKTIVES DEMO-DATENBLATT
+
+Modell: Alpin 80
+Kategorie: Kaminofen
+Modellannahme Nennleistung: 6 kW
+Fiktiver Partnerpreis: CHF 2'840 exkl. MWST
+Führendes System für Produkt und Preis: bestehendes ERP
+
+Dieses Dokument illustriert einen Content-Pfad. Es ist keine technische
+Spezifikation eines realen Produkts und keine Installationsanleitung.
+Reale Planung und Installation erfolgen durch einen qualifizierten Fachpartner.

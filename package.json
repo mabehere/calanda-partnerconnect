@@ -1,0 +1,45 @@
+{
+  "name": "calanda-partnerconnect",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "video:studio": "remotion studio video/index.ts",
+    "video:render": "remotion render video/index.ts CalandaJourney public/media/calada-customer-journey.mp4 --codec h264 --concurrency 2",
+    "export": "node scripts/export.mjs"
+  },
+  "dependencies": {
+    "@fontsource/bodoni-moda": "latest",
+    "@fontsource/manrope": "latest",
+    "@react-three/drei": "latest",
+    "@react-three/fiber": "^9.0.0",
+    "@remotion/cli": "latest",
+    "@remotion/three": "^4.0.543",
+    "gsap": "latest",
+    "lucide-react": "latest",
+    "motion": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "remotion": "latest",
+    "three": "latest",
+    "zustand": "latest"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "@tailwindcss/vite": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/three": "latest",
+    "@vitejs/plugin-react": "latest",
+    "tailwindcss": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "vitest": "latest"
+  }
+}
