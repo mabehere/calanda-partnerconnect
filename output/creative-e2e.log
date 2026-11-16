@@ -1,0 +1,39 @@
+
+> caleira-partnerconnect@1.0.0 test:e2e
+> playwright test
+
+
+Running 26 tests using 1 worker
+
+(node:28388) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok  1 [chrome] › tests\creative.spec.ts:3:1 › Journey: eine Uhr, Pause, Replay, Kapitelzustand und Tastatur (4.5s)
+  ok  2 [chrome] › tests\creative.spec.ts:21:1 › Journey: automatisches Kapitel und Eco/Explore (15.0s)
+  ok  3 [chrome] › tests\creative.spec.ts:30:1 › Journey: Reduced Motion, alle Momente, Mobile und Vollbild (1.9s)
+  ok  4 [chrome] › tests\creative.spec.ts:39:1 › Schnelle Navigation beendet Reveals und Formularpfeile bleiben lokal (1.8s)
+  ok  5 [chrome] › tests\creative.spec.ts:47:1 › WebGL-Ausfall bietet den lokalen Film an (962ms)
+  ok  6 [chrome] › tests\creative.spec.ts:53:1 › Film und direkte Demo-Links synchronisieren Moment und Presenter (2.0s)
+  ok  7 [chrome] › tests\pitch.spec.ts:2:1 › Lokales Video, PDF-Downloads, Tastatur und Presenter (2.2s)
+  ok  8 [chrome] › tests\pitch.spec.ts:3:1 › 19 Szenen, Navigation, keine Browserfehler und keine Überbreite (1.1s)
+  ok  9 [chrome] › tests\pitch.spec.ts:4:1 › Lead vollständig mit Dublette und Vertretung (793ms)
+  ok 10 [chrome] › tests\pitch.spec.ts:5:1 › Vier Öfen mit Fehler, Retry und Lieferstatus (3.3s)
+  ok 11 [chrome] › tests\pitch.spec.ts:6:1 › Servicefall bis zum Abschluss (833ms)
+  ok 12 [chrome] › tests\pitch.spec.ts:7:1 › Business Case und CMS reagieren auf Eingaben (688ms)
+  ok 13 [chrome] › tests\pitch.spec.ts:8:1 › Marketing-Stoppregel, 3D, KI und Risiken (1.8s)
+(node:27848) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 14 [edge] › tests\creative.spec.ts:3:1 › Journey: eine Uhr, Pause, Replay, Kapitelzustand und Tastatur (5.2s)
+  ok 15 [edge] › tests\creative.spec.ts:21:1 › Journey: automatisches Kapitel und Eco/Explore (15.6s)
+  ok 16 [edge] › tests\creative.spec.ts:30:1 › Journey: Reduced Motion, alle Momente, Mobile und Vollbild (1.9s)
+  ok 17 [edge] › tests\creative.spec.ts:39:1 › Schnelle Navigation beendet Reveals und Formularpfeile bleiben lokal (1.8s)
+  ok 18 [edge] › tests\creative.spec.ts:47:1 › WebGL-Ausfall bietet den lokalen Film an (985ms)
+  ok 19 [edge] › tests\creative.spec.ts:53:1 › Film und direkte Demo-Links synchronisieren Moment und Presenter (2.2s)
+  ok 20 [edge] › tests\pitch.spec.ts:2:1 › Lokales Video, PDF-Downloads, Tastatur und Presenter (2.2s)
+  ok 21 [edge] › tests\pitch.spec.ts:3:1 › 19 Szenen, Navigation, keine Browserfehler und keine Überbreite (1.2s)
+  ok 22 [edge] › tests\pitch.spec.ts:4:1 › Lead vollständig mit Dublette und Vertretung (828ms)
+  ok 23 [edge] › tests\pitch.spec.ts:5:1 › Vier Öfen mit Fehler, Retry und Lieferstatus (3.3s)
+  ok 24 [edge] › tests\pitch.spec.ts:6:1 › Servicefall bis zum Abschluss (763ms)
+  ok 25 [edge] › tests\pitch.spec.ts:7:1 › Business Case und CMS reagieren auf Eingaben (662ms)
+  ok 26 [edge] › tests\pitch.spec.ts:8:1 › Marketing-Stoppregel, 3D, KI und Risiken (1.7s)
+
+  26 passed (1.3m)

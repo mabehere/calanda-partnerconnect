@@ -1,0 +1,233 @@
+{
+  "baseline": "bf2a7f56fc6a6b4f02aea4e2248c31f27603aad6",
+  "checks": [
+    {
+      "path": "docs/ai-disclosure.md",
+      "passed": true,
+      "sha256": "f04e6a0540c2913dad2b343dad291b8076e01ff47ead2ef6f20add1dcfcc488d"
+    },
+    {
+      "path": "docs/architecture.md",
+      "passed": true,
+      "sha256": "e24cb66496d23f50c856b3702e00a1941c02767d85fddf5a184eb85202194f2b"
+    },
+    {
+      "path": "docs/assumptions.md",
+      "passed": true,
+      "sha256": "2e7e817641e81bf3d3ebce4bfa9f71aa35178828d316d33773e9a192addd7b27"
+    },
+    {
+      "path": "docs/case-facts.md",
+      "passed": true,
+      "sha256": "f05267c041c54564e28087e51bbf767113045259b289bf23e8d2ca5fad69ebb8"
+    },
+    {
+      "path": "docs/differentiation.md",
+      "passed": true,
+      "sha256": "b58666a3a03e2a18b9aae4f120f0e3a8baeaa1803c8e079e91fa2d95105c1d90"
+    },
+    {
+      "path": "docs/operating-model.md",
+      "passed": true,
+      "sha256": "bad196f486d87a893979322801e1ed931026fd9faea5ce716b8828c3df065004"
+    },
+    {
+      "path": "docs/platform-decision.md",
+      "passed": true,
+      "sha256": "3f9eaca735f5fd54923267404c283fa720c9451ee155adac75a45a6e06b2f629"
+    },
+    {
+      "path": "docs/presenter-script.md",
+      "passed": true,
+      "sha256": "cd1abd766d23edd1428687281d76fe4aaca836a2759328950bbaf2d8aca759de"
+    },
+    {
+      "path": "docs/qa-preparation.md",
+      "passed": true,
+      "sha256": "96294f4143e770453a79fcbea73aa6b52b47c1c0732c9b0bf05100fa99a8c2af"
+    },
+    {
+      "path": "docs/qa-report.md",
+      "passed": true,
+      "sha256": "7609ebff7f765068f2b9aa10799e79c1f83d09a91c5b477be163a0317c2f99dc"
+    },
+    {
+      "path": "docs/requirements-matrix.md",
+      "passed": true,
+      "sha256": "d768c0ecd0a8d5af699e3708c7f08d3cb092d35741abfb15a79dc2a82d32df5d"
+    },
+    {
+      "path": "docs/risks.md",
+      "passed": true,
+      "sha256": "942436a078e5db9408266269ba1331171d5df95b5b3bf3eeeed044d3128894f0"
+    },
+    {
+      "path": "docs/rubric-coverage.md",
+      "passed": true,
+      "sha256": "76216fa2ec8c53a9a782649b2fff666a9c2eebd7ee0f14b45041065ee3402b5f"
+    },
+    {
+      "path": "docs/theory-map.md",
+      "passed": true,
+      "sha256": "1e5fc168d9c558341246dbb8d18d6c819de85e18ace5608d4afa597630e3abf4"
+    },
+    {
+      "path": "output/content.json",
+      "passed": true,
+      "sha256": "1ad61f7932d818666edc55fcc3bc59006e31e25c25f13f5f60b1fa06d7e5cc5c"
+    },
+    {
+      "path": "public/downloads/nachweise.md",
+      "passed": true,
+      "sha256": "3cf472b56760afa636ec0c13629e595a7f674a7b4deacf19791a399839598a24"
+    },
+    {
+      "path": "scripts/documentation.mjs",
+      "passed": true,
+      "sha256": "76fad3a417b85beb5399e4bfdcc43e2a0f6617bc82f24810b9052d3fd65cdfe5"
+    },
+    {
+      "path": "src/content/scenes.ts",
+      "passed": true,
+      "sha256": "a9c18ec4435a0c07b49770a6bb8cb61b1bb7c7b9da18a4686dba8fd0dbe06c7a"
+    },
+    {
+      "path": "src/data/case.ts",
+      "passed": true,
+      "sha256": "106521d92c98b5c0f24d59d14d64a530f8557198fd1541174a2e9a009a8897b5"
+    },
+    {
+      "path": "src/lib/business.test.ts",
+      "passed": true,
+      "sha256": "0634e181c39f5b6e67f65afced02272d9864481182ba22420ed77865273803ea"
+    },
+    {
+      "path": "src/lib/business.ts",
+      "passed": true,
+      "sha256": "c3010bf2ca703ab2b57dc8e3bbda50fc4d9aa3db513aa2d68ebb8cca1e50680a"
+    },
+    {
+      "path": "src/lib/demo.test.ts",
+      "passed": true,
+      "sha256": "7fe0a353d19d259a0fa4b6ce07e0dc514edd3101a6b82481a2a5091baee3c583"
+    },
+    {
+      "path": "src/lib/demo.ts",
+      "passed": true,
+      "sha256": "01c3a47aa5d681dfb1a2f3cc7bd7336c36e53933adf2a29953319c25f469fe37"
+    },
+    {
+      "path": "tests/pitch.spec.ts",
+      "passed": true,
+      "sha256": "5536010c8dffbe0eaa85a6e3cd21f80a8fb6605f0cc8c610ea74f98d20f789eb"
+    },
+    {
+      "path": "Journey: chapters, descriptions, MOMENTS, MOOD, PHASES",
+      "passed": true
+    },
+    {
+      "path": "Film: all sequences, titles, captions, durations",
+      "passed": true
+    },
+    {
+      "path": "src/components/Demos.tsx",
+      "passed": true
+    },
+    {
+      "path": "src/components/Details.tsx",
+      "passed": true
+    },
+    {
+      "path": "src/components/BusinessCase.tsx",
+      "passed": true
+    },
+    {
+      "path": "src/components/Partner.tsx",
+      "passed": true
+    },
+    {
+      "path": "package.json",
+      "passed": true
+    },
+    {
+      "path": "package-lock.json",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 1",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 2",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 3",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 4",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 5",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 6",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 7",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 8",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 9",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 10",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 11",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 12",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 13",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 14",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 15",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 16",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 17",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 18",
+      "passed": true
+    },
+    {
+      "path": "Rendered main text scene 19",
+      "passed": true
+    }
+  ]
+}

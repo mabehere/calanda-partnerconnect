@@ -1,0 +1,13 @@
+
+> caleira-partnerconnect@1.0.0 test
+> vitest run
+
+
+ RUN  v5.1.0 C:/Users/maikb/Documents/CRM
+
+
+ Test Files  2 passed (2)
+      Tests  11 passed (11)
+   Start at  23:19:55
+   Duration  538ms (import 46%, transform 28%, tests 17%, worker 9%)
+
