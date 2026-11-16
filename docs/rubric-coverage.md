@@ -25,4 +25,4 @@ Quelle: «FHGR – Bewertungsraster Pitch 2026», Blätter Bewertung, Leistungsa
 | A3 | Kundenorientierung | Zusätzlich fasst es das Anliegen korrekt zusammen und passt Erklärung oder Priorität daran an. | 16, 19 | Rückfrage an die Geschäftsleitung in Szene 16 und 19 | Live-Leistung. |
 | A4 | Fragen und Einwände | Zusätzlich Alternativen abgewogen und konkrete Klärung vereinbart. Team beantwortet Einwände konsistent. | 19 + Gespräch | Top-10-Fragen mit Antwort und zuständiger Person | Live-Leistung. |
 
-Format: 19 Hauptfolien (erlaubt 20 inklusive Titel), 30 Minuten Pitch, danach 15 Minuten Kundengespräch.
+Format: 19 Hauptfolien (erlaubt 20 inklusive Titel), 29 Minuten Pitch, danach 15 Minuten Kundengespräch.

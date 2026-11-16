@@ -81,20 +81,20 @@
         "M1"
       ],
       "speaker": "Sila",
-      "notes": "Unser Vorschlag heisst PartnerConnect und läuft auf Salesforce. Sales Cloud führt Anfragen, Partner und Verkaufschancen. Service Cloud führt die Fälle. Ihr ERP bleibt führend für Produkte, Preise, Partnerstammdaten und Bestellungen. Warum Salesforce? Vertrieb, Service und später das Partnerportal laufen auf derselben Plattform. Marco und Ihr Service sehen denselben Fall. In sechs Monaten liefern wir vier Bausteine: Partnerübersicht, Lead-Prozess, Service und die Anbindung ans ERP. Marketing, Website, Portal und KI folgen gestaffelt. Wie das im Alltag aussieht, zeigt Ihnen jetzt Altina. Wir gehen ein Jahr zurück, zu Marcos erster Anfrage.",
-      "cue": "MVP-Bausteine und spätere Stufen zeigen. Übergabe an Altina.",
+      "notes": "Unser Vorschlag heisst PartnerConnect und läuft auf Salesforce. Sales Cloud führt Anfragen, Partner und Verkaufschancen. Service Cloud führt die Fälle. Ihr ERP bleibt führend für Produkte, Preise, Partnerstammdaten und Bestellungen. Warum Salesforce? Vertrieb, Service und später das Partnerportal laufen auf derselben Plattform. Vertrieb und Service sehen denselben Fall, später auch Marco im Portal. In sechs Monaten liefern wir vier Bausteine: Partnerübersicht, Lead-Prozess, Service und die Anbindung ans ERP. Marketing, Website, Portal und KI folgen gestaffelt. Wie das im Alltag aussieht, zeigt Ihnen jetzt Maik. Wir gehen ein Jahr zurück, zu Marcos erster Anfrage.",
+      "cue": "MVP-Bausteine und spätere Stufen zeigen. Übergabe an Maik.",
       "proof": "docs/architecture.md; docs/platform-decision.md"
     },
     {
       "title": "Aus Interesse\nwird Partnerschaft.",
       "eyebrow": "07 / Journey 1 · Partner gewinnen",
       "message": "Kein Lead ohne nächsten Schritt und verantwortliche Person.",
-      "seconds": 150,
+      "seconds": 135,
       "criteria": [
         "R2",
         "A2"
       ],
-      "speaker": "Altina",
+      "speaker": "Maik",
       "notes": "Ich zeige Ihnen drei Dinge: wie Marcos Anfrage eingeht, wie wir sie qualifizieren und was passiert, wenn die zuständige Person fehlt. Marco füllt das Formular auf der Website aus. In Salesforce entsteht ein Lead. Schickt er die Anfrage ein zweites Mal, erkennt das System die Dublette. Jetzt die Qualifikation mit drei festen Kriterien: Fachbetrieb, Region, Sortimentsinteresse. Erfüllt. Der Lead geht an den Standort Locarno, zu Giulia Rossi. Sie spricht Italienisch, wie Marco. Sie bekommt eine Aufgabe: Erstgespräch am nächsten Arbeitstag. Giulia ist krank. Die Aufgabe geht an ihren Stellvertreter, nicht in ein leeres Postfach. Nach dem Gespräch wird aus dem Lead ein Partnerkonto, ein Kontakt und eine Verkaufschance. Nach der Freigabe legt das ERP die Partnernummer an. Was Sie gesehen haben: ein Arbeitstag statt vier, und zu jedem Zeitpunkt ist klar, wer dran ist.",
       "cue": "Anfrage → Dublette → Qualifikation → Locarno → Aufgabe → Vertretung → Verkaufschance → Freigabe. Am Schluss Nutzen in einem Satz.",
       "proof": "src/components/Demos.tsx; src/lib/demo.ts"
@@ -102,13 +102,13 @@
     {
       "title": "Marco.\nMit allem, was zählt.",
       "eyebrow": "08 / Partnerübersicht",
-      "message": "Eine gemeinsame Historie statt vier persönlicher Postfächer.",
+      "message": "Eine gemeinsame Historie statt persönlicher Postfächer an vier Standorten.",
       "seconds": 60,
       "criteria": [
         "R1",
         "R7"
       ],
-      "speaker": "Altina",
+      "speaker": "Maik",
       "notes": "Ein Jahr später ist Marco aktiver Partner. Das ist seine Übersicht. Oben sein Betrieb und seine Kontaktperson. Daneben seine Bestellungen aus dem ERP, seine Servicefälle und der eingebaute Ofen als Asset mit Garantie. Die Stammdaten kommen aus dem ERP und werden hier nur gelesen. Dubletten verhindern wir über die ERP-Partnernummer und die E-Mail-Adresse. Unklare Treffer entscheidet ein Mensch. Wer Marco am Telefon hat, sieht alles auf einer Seite. Vivienne zeigt Ihnen jetzt, wie Marco bestellt.",
       "cue": "Register Übersicht, Bestellungen, Service, Historie. Datenquelle und Dublettenregel zeigen.",
       "proof": "src/components/Partner.tsx"
@@ -117,7 +117,7 @@
       "title": "Vier Öfen.\nEine sichere Übergabe.",
       "eyebrow": "09 / Journey 2 · Bestellung",
       "message": "Jede Bestellung kommt genau einmal im ERP an.",
-      "seconds": 180,
+      "seconds": 165,
       "criteria": [
         "R4",
         "R7"
@@ -131,13 +131,13 @@
       "title": "Ein Schaden.\nKein verlorener Faden.",
       "eyebrow": "10 / Journey 3 · Servicefall",
       "message": "Dieselbe Kältewoche. Diesmal weiss Caleira Bescheid.",
-      "seconds": 210,
+      "seconds": 195,
       "criteria": [
         "R5",
         "R8"
       ],
       "speaker": "Vivienne",
-      "notes": "Zurück in die Kältewoche, diesmal mit PartnerConnect. Ich zeige: Erfassung, fehlende Angaben, Eskalation und Rückmeldung. Marco meldet die gesprungene Scheibe. Der Fall hängt an seinem Partnerkonto, an der Bestellung und am eingebauten Ofen. Das System prüft die Pflichtangaben. Das Foto fehlt. Früher begann hier das Hin und Her. Jetzt geht sofort eine Rückfrage an Marco. Er lädt das Foto hoch. Der Fall ist vollständig und geht an Sofia Keller im Service. Sie startet die Prüfung. Es ist Heizsaison, die Kundin hat keine Wärme. Sofia eskaliert an die Serviceleitung. Die Ersatzscheibe geht am selben Tag raus. Marco bekommt die Nachricht, auf Italienisch. Erst dann wird der Fall geschlossen. Jeder Schritt steht in der Historie. Ein gut gelöster Schaden bindet einen Partner stärker als ein Kauf ohne Problem. Das ist der Kern unseres Vorschlags. Josh zeigt Ihnen, was dahinter liegt.",
+      "notes": "Zurück in die Kältewoche, diesmal mit PartnerConnect. Ich zeige: Erfassung, fehlende Angaben, Eskalation und Rückmeldung. Marco meldet die gesprungene Scheibe per E-Mail. In Salesforce entsteht daraus ein Fall. Er hängt an seinem Partnerkonto, an der Bestellung und am eingebauten Ofen. Das System prüft die Pflichtangaben. Das Foto fehlt. Früher begann hier das Hin und Her. Jetzt geht sofort eine Rückfrage per E-Mail an Marco. Er schickt das Foto nach. Der Fall ist vollständig und geht an Sofia Keller im Service. Sie startet die Prüfung. Es ist Heizsaison, die Kundin hat keine Wärme. Sofia eskaliert an die Serviceleitung. Die Ersatzscheibe geht am selben Tag raus. Marco bekommt die Nachricht, auf Italienisch. Erst dann wird der Fall geschlossen. Jeder Schritt steht in der Historie. Ein gut gelöster Schaden bindet einen Partner stärker als ein Kauf ohne Problem. Das ist der Kern unseres Vorschlags. Josh zeigt Ihnen, was dahinter liegt.",
       "cue": "Fall erfassen → Rückfrage → Foto → Zuweisung → Bearbeitung → Eskalation → Lösung → Nachricht → Abschluss. Schlusssatz langsam.",
       "proof": "src/components/Demos.tsx; src/lib/demo.test.ts"
     },
@@ -150,7 +150,7 @@
         "R3"
       ],
       "speaker": "Josh",
-      "notes": "Öfen sind ein Saisongeschäft. Wer im November bestellt, ist spät dran. Unsere Journey hat ein Segment: aktive Partner, die seit 90 Tagen nichts bestellt haben. Ein Auslöser: acht Wochen vor Saisonstart. Und eine E-Mail an Marco mit einem Beratungsangebot. Bestelldatum und Status kommen aus dem ERP, die Einwilligung aus Salesforce. Bestellt Marco oder meldet er sich ab, stoppt die Journey sofort. Den Erfolg messen wir an den Bestellungen der angeschriebenen Partner im Vergleich zu einer Kontrollgruppe.",
+      "notes": "Öfen sind ein Saisongeschäft. Wer im November bestellt, ist spät dran. Unsere Journey hat ein Segment: aktive Partner, die seit 90 Tagen nichts bestellt haben. Ein Auslöser: acht Wochen vor Saisonstart. Und eine E-Mail an Marco mit einem Beratungsangebot, in seiner Sprache. Bestelldatum und Status kommen aus dem ERP, die Einwilligung aus Salesforce. Bestellt Marco oder meldet er sich ab, stoppt die Journey sofort. Den Erfolg messen wir an den Bestellungen der angeschriebenen Partner im Vergleich zu einer Kontrollgruppe.",
       "cue": "Neue Bestellung und Abmeldung als Stopp zeigen.",
       "proof": "src/components/Details.tsx"
     },
@@ -189,8 +189,8 @@
         "R8"
       ],
       "speaker": "Josh",
-      "notes": "Nehmen wir noch einmal Marcos Scheibe. Eine einfache Regel erkennt Glasbruch und leitet den Fall an den Service. Das genügt für den Start. Eine KI könnte zusätzlich die Antwort an Marco vorschreiben. Dafür braucht sie Ihre Falldaten, und ein Mensch gibt jede Antwort frei. Unser Vorschlag: nach dem MVP ein Test mit 100 echten, anonymisierten Fällen. Mindestens 90 Prozent richtig eingeordnet, kein kritischer Fehler, 20 Prozent weniger Bearbeitungszeit. Erreichen wir das nicht, bleiben wir bei den Regeln. Was das alles bringt, rechnet Ihnen Maik vor.",
-      "cue": "Regel und KI-Vorschlag vergleichen, manuell freigeben. Übergabe an Maik.",
+      "notes": "Nehmen wir noch einmal Marcos Scheibe. Eine einfache Regel erkennt Glasbruch und leitet den Fall an den Service. Das genügt für den Start. Eine KI könnte zusätzlich die Antwort an Marco vorschreiben. Dafür braucht sie Ihre Falldaten, und ein Mensch gibt jede Antwort frei. Unser Vorschlag: nach dem MVP ein Test mit 100 echten, anonymisierten Fällen. Mindestens 90 Prozent richtig eingeordnet, kein kritischer Fehler, 20 Prozent weniger Bearbeitungszeit. Erreichen wir das nicht, bleiben wir bei den Regeln. Was das alles bringt, rechnet Ihnen Altina vor.",
+      "cue": "Regel und KI-Vorschlag vergleichen, manuell freigeben. Übergabe an Altina.",
       "proof": "src/components/Details.tsx; docs/assumptions.md"
     },
     {
@@ -203,7 +203,7 @@
         "V3",
         "M2"
       ],
-      "speaker": "Maik",
+      "speaker": "Altina",
       "notes": "Ihr Ziel ist ein Partnervertrieb, der wächst und verlässlich ist. Daraus leiten wir drei Kennzahlen ab. Die erste persönliche Antwort: von vier Arbeitstagen auf einen. Neue Partner nach 90 Tagen: von vier auf sechs. Unvollständige Servicefälle: von 35 auf 15 Prozent. Die Ziele sind unsere Annahme und werden im ersten Monat mit Ihnen festgelegt. Gemessen wird in Salesforce, verantwortlich sind die Vertriebsleitung und die Serviceleitung. Wir vergleichen mit dem gleichen Monat des Vorjahres. Sonst misst man die Saison und nicht die Lösung.",
       "cue": "KPI anklicken, Definition und Verantwortung zeigen.",
       "proof": "src/components/Details.tsx; docs/assumptions.md"
@@ -212,14 +212,14 @@
       "title": "Was wird frei?\nWas wird wirklich gespart?",
       "eyebrow": "16 / Nutzenrechnung",
       "message": "96 Stunden pro Monat sind Kapazität. Noch keine Einsparung.",
-      "seconds": 150,
+      "seconds": 135,
       "criteria": [
         "V2",
         "V3",
         "A3"
       ],
-      "speaker": "Maik",
-      "notes": "Zuerst das MVP. 40 unvollständige Fälle weniger pro Monat. Bei 20 Minuten Rückfrage pro Fall sind das gut 13 Stunden, rund 800 Franken Kapazitätswert. Und zwei Partner mehr pro Quartal sind acht im Jahr. Ein Partner bestellt heute im Schnitt 96 Mal pro Jahr. Das sind rund 770 zusätzliche Bestellungen. Die 20 Minuten sind unsere Annahme. Jetzt der grosse Hebel, das Portal. 1’200 Bestellungen, 40 Prozent von Hand, zwölf Minuten: 96 Stunden pro Monat. Mit 60 Franken bewertet sind das 5’760 Franken. Ich stelle den Automatisierungsgrad auf 60 Prozent: 57,6 Stunden werden frei. Das ist Kapazität, keine Einsparung. Gespart ist erst, was Sie nicht mehr bezahlen. Diesen Anteil stellen Sie hier selbst ein. Welcher Wert ist für Sie realistisch?",
+      "speaker": "Altina",
+      "notes": "Zuerst das MVP. 40 unvollständige Fälle weniger pro Monat. Bei 20 Minuten Rückfrage pro Fall sind das gut 13 Stunden, rund 800 Franken Kapazitätswert. Und zwei Partner mehr pro Monat sind 24 im Jahr. Ein Partner bestellt heute im Schnitt 96 Mal pro Jahr. Das sind rund 2’300 zusätzliche Bestellungen. Die 20 Minuten sind unsere Annahme. Jetzt der grosse Hebel, das Portal. 1’200 Bestellungen, 40 Prozent von Hand, zwölf Minuten: 96 Stunden pro Monat. Mit 60 Franken bewertet sind das 5’760 Franken. Ich stelle den Automatisierungsgrad auf 60 Prozent: 57,6 Stunden werden frei. Das ist Kapazität, keine Einsparung. Gespart ist erst, was Sie nicht mehr bezahlen. Diesen Anteil stellen Sie hier selbst ein. Welcher Wert ist für Sie realistisch?",
       "cue": "MVP-Reiter → Portal-Reiter → Automatisierung 60 % → Anteil «kostenwirksam» mit der Geschäftsleitung einstellen → Reset.",
       "proof": "src/lib/business.ts; src/lib/business.test.ts"
     },
@@ -233,7 +233,7 @@
         "M2",
         "P1"
       ],
-      "speaker": "Maik",
+      "speaker": "Altina",
       "notes": "Sechs Monate, sechs Freigaben. Monat eins: Prozesse und Kennzahlen. Monat zwei: die Schnittstelle zum ERP ist getestet. Das ist das wichtigste Tor. Monat drei: Partnerübersicht und Lead-Prozess. Monat vier: Service. Monat fünf: Pilot mit acht Mitarbeitenden und zehn Partnern. Monat sechs: Schulung, Abnahme und Übergabe in den Betrieb. Besteht ein Tor nicht, bessern wir nach und testen erneut. Zur Reihenfolge: Das Portal bringt die 96 Stunden, kommt aber nach dem MVP. Dafür gibt es zwei Gründe. Es braucht eine geprüfte Schnittstelle, die ins ERP schreibt. Und es braucht Lizenzen für 150 Partner, rund 3’750 Franken pro Monat. Das übersteigt das laufende MVP-Budget. Wir bauen zuerst das Fundament und bringen das Portal als eigenen Entscheid.",
       "cue": "Monate anklicken, Tor und Verantwortliche zeigen. Reihenfolge R4 begründen.",
       "proof": "src/components/Details.tsx; docs/requirements-matrix.md"
@@ -247,8 +247,8 @@
         "P1",
         "P2"
       ],
-      "speaker": "Maik",
-      "notes": "Das MVP kostet 145’000 Franken einmalig. Das sind 96 Personentage zu 1’400 Franken und eine Reserve von 10’600 Franken. Der grösste Posten ist die ERP-Integration mit 24 Tagen. Laufend sind es 2’600 Franken pro Monat: zwölf Salesforce-Lizenzen zu 100 Franken, 400 Franken für Integration und Überwachung, 1’000 Franken für Betrieb und Support. Zwölf Lizenzen reichen, weil im MVP nur Partnerbetreuung, Service und Leitung damit arbeiten. Von Ihnen brauchen wir 45 Personentage, vor allem für Tests und Pilot. Sie nehmen ab, wir übergeben in den Betrieb. Drei Risiken: die ERP-Schnittstelle, die Datenqualität und die Akzeptanz im Team. Jedes hat ein Frühwarnzeichen, eine Massnahme und eine verantwortliche Person. Für den Schluss zurück zu Anya.",
+      "speaker": "Altina",
+      "notes": "Das MVP kostet 145’000 Franken einmalig. Das sind 96 Personentage zu 1’400 Franken und eine Reserve von 10’600 Franken. Der grösste Posten ist die ERP-Integration mit 24 Tagen. Laufend sind es 2’600 Franken pro Monat: zwölf Salesforce-Lizenzen zu 100 Franken, 400 Franken für Integration und Überwachung, 1’000 Franken für Betrieb und Support. Zwölf Lizenzen reichen, weil im MVP nur Partnerbetreuung, Service und Leitung damit arbeiten. Ob die Pro Suite für die ERP-Schnittstelle genügt, klären wir im zweiten Monat. Von Ihnen brauchen wir 45 Personentage, vor allem für Tests und Pilot. Sie nehmen ab, wir übergeben in den Betrieb. Drei Risiken: die ERP-Schnittstelle, die Datenqualität und die Akzeptanz im Team. Jedes hat ein Frühwarnzeichen, eine Massnahme und eine verantwortliche Person. Für den Schluss zurück zu Anya.",
       "cue": "Kosten, Rollen, drei Risiken öffnen. Übergabe an Anya.",
       "proof": "src/data/case.ts; docs/risks.md"
     },

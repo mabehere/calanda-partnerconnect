@@ -53,7 +53,7 @@ const reqText=`# Anforderungen R1–R8 mit Folien- und Demo-Verweisen
 ${table(['ID','Verbindlicher Inhalt (Case)','Stufe','Nachweis','Begründung der Stufe'],reqs)}
 Abhängigkeiten: R7 vor R1 und R5 (ERP-Referenzen). R1 vor R3 (Kontakte, Einwilligungen). R7 lesend im MVP, schreibend erst für R4. R5 liefert die Falldaten für R8.
 
-Ausschlüsse im MVP: kein Direktverkauf an Endkunden, kein Partnerportal, kein Mailversand an Partner, keine KI.`;
+Ausschlüsse im MVP: kein Direktverkauf an Endkunden, kein Partnerportal (Partner melden Fälle per E-Mail oder Telefon; Rückfragen und Rückmeldungen gehen per E-Mail aus Salesforce), kein Marketing-Mailversand an Partner, keine KI.`;
 await write('docs/requirements-matrix.md',reqText);
 await write('public/downloads/nachweise.md',reqText+'\n\n'+`## Quellen
 
@@ -107,7 +107,7 @@ ${table(['Annahme','Wert','Begründung','Prüfung'],[
  ['Betrieb','CHF 400 Integration und Monitoring, CHF 1’000 Support pro Monat','Rund 0,7 Personentage Support','Betriebsvertrag'],
  ['Kundenaufwand',PLAN.clientDays+' Personentage: 10 Prozesse, 12 IT und Daten, 15 Tests und Pilot, 8 Schulung','Nicht im Projektpreis','Bestätigung durch Kundenrollen'],
  ['Pilot',PLAN.pilotEmployees+' Mitarbeitende, '+PLAN.pilotPartners+' Partner, ausserhalb der Saisonspitze','Zwei Drittel der Nutzer, alle vier Standorte','Auswahl im Monat 4'],
- ['KPI-Ziele','Antwort 1 statt 4 Arbeitstage; 6 statt 4 neue Partner; 15 statt 35 % unvollständig','Erreichbar mit Zuweisung, Vertretung und Pflichtfeldern','Festlegung im Monat 1, Vergleich mit Vorjahresmonat'],
+ ['KPI-Ziele','Antwort 1 statt 4 Arbeitstage; 6 statt 4 neue Partner je Monatskohorte; 15 statt 35 % unvollständig','Erreichbar mit Zuweisung, Vertretung und Pflichtfeldern','Festlegung im Monat 1, Vergleich mit Vorjahresmonat'],
  ['Rückfrage je unvollständigem Fall',PLAN.followUp.clarificationMinutes+' Minuten','Ein Mail und ein Telefonat','Zeitaufnahme im Pilot'],
  ['Portal-Lizenzen (Stufe 3)',chf(PLAN.followUp.portalMonthly)+' pro Monat für '+CASE.partners+' Partner','Listenpreis Experience Cloud für Partner, USD 25 je Mitglied','Offerte; Login-basiertes Modell prüfen'],
  ['Automatisierung Bestellungen','30, 60 oder 90 % der manuellen Übertragungen','Szenarien statt Punktwert','Portalnutzung im Betrieb'],
@@ -249,7 +249,7 @@ ${table(['Risiko','Eintritt / Wirkung','Frühwarnzeichen','Massnahme','Verantwor
 ])}
 Schwellen werden im Monat 1 gemeinsam festgelegt. Kritische Fehler bei Schnittstelle, Rechten oder Daten verhindern den Rollout. Wird ein Pilotziel verfehlt: Ursache klären, nachbessern, erneut messen; über Umfang und Termin entscheidet der Sponsor.
 
-Zusätzlich beobachtet: Die Pro Suite genügt nicht für die Schnittstelle (siehe docs/platform-decision.md).`);
+Zusätzlich beobachtet: Die Pro Suite genügt möglicherweise nicht für die ERP-Schnittstelle; Klärung im Monat 2 (siehe docs/platform-decision.md).`);
 
 await write('docs/operating-model.md',`# Zusammenarbeit, Einführung und Betrieb
 
@@ -281,14 +281,14 @@ Der Kunde besitzt die Daten und vergibt die Rechte. Die Agentur übernimmt Suppo
 // Top-10 der Geschäftsleitung, danach weitere Fragen. Spalte 3: wer antwortet.
 const qa=[
  ['Warum Salesforce und nicht etwas Günstigeres?','Weil Vertrieb, Service und später das Portal auf derselben Plattform laufen. Marco sieht im Portal denselben Fall wie Ihr Service. Mit zwölf Nutzern in der Pro Suite bleiben wir bei 2’600 Franken pro Monat. Ein günstigeres CRM wäre möglich, hätte aber spätestens beim Portal einen Wechsel zur Folge. Die Abwägung steht im Anhang.','Sila'],
- ['Reichen zwölf Lizenzen für 70 Mitarbeitende?','Im MVP arbeiten nur Partnerbetreuung, Service und Leitung im System: sechs im Vertrieb, vier im Service, die Vertriebsleitung und eine Administration. Produktion, Logistik und Finanzen bleiben im ERP. Vier weitere Nutzer hätten im Budget Platz. Die Rollenliste bestätigen wir im ersten Monat mit Ihnen.','Maik'],
- ['Der grösste Nutzen liegt bei den Bestellungen. Warum ist das Portal nicht im MVP?','Aus zwei Gründen. Das Portal schreibt ins ERP, und diese Schnittstelle ist noch nicht geprüft. Und die Lizenzen für 150 Partner kosten rund 3’750 Franken pro Monat, mehr als das ganze laufende MVP-Budget. Das MVP schafft die Grundlage und der Portal-Entscheid kommt mit einer eigenen Rechnung.','Maik'],
- ['Was bringt uns das MVP in Franken?','Vorsichtig gerechnet rund 800 Franken Kapazität pro Monat im Service und acht zusätzliche Partner pro Jahr. Der Wert der Partner hängt von Ihrem Umsatz je Partner ab, den wir nicht kennen. Wir behaupten keinen ROI. Wir legen drei Kennzahlen fest und messen sie gegen den Vorjahresmonat.','Maik'],
- ['Sparen wir damit Personal?','Nein, nicht automatisch. 96 Stunden sind frei werdende Kapazität. Ob Sie diese für die Partnerbetreuung einsetzen oder Stellen nicht nachbesetzen, entscheiden Sie. Im Rechner stellen Sie den kostenwirksamen Anteil selbst ein.','Maik'],
+ ['Reichen zwölf Lizenzen für 70 Mitarbeitende?','Im MVP arbeiten nur Partnerbetreuung, Service und Leitung im System: sechs im Vertrieb, vier im Service, die Vertriebsleitung und eine Administration. Produktion, Logistik und Finanzen bleiben im ERP. Vier weitere Nutzer hätten im Budget Platz. Die Rollenliste bestätigen wir im ersten Monat mit Ihnen.','Altina'],
+ ['Der grösste Nutzen liegt bei den Bestellungen. Warum ist das Portal nicht im MVP?','Aus zwei Gründen. Das Portal schreibt ins ERP, und diese Schnittstelle ist noch nicht geprüft. Und die Lizenzen für 150 Partner kosten rund 3’750 Franken pro Monat, mehr als das ganze laufende MVP-Budget. Das MVP schafft die Grundlage und der Portal-Entscheid kommt mit einer eigenen Rechnung.','Altina'],
+ ['Was bringt uns das MVP in Franken?','Vorsichtig gerechnet rund 800 Franken Kapazität pro Monat im Service und 24 zusätzliche Partner pro Jahr, wenn aus jeder Monatskohorte sechs statt vier Partner werden. Der Wert der Partner hängt von Ihrem Umsatz je Partner ab, den wir nicht kennen. Wir behaupten keinen ROI. Wir legen drei Kennzahlen fest und messen sie gegen den Vorjahresmonat.','Altina'],
+ ['Sparen wir damit Personal?','Nein, nicht automatisch. 96 Stunden sind frei werdende Kapazität. Ob Sie diese für die Partnerbetreuung einsetzen oder Stellen nicht nachbesetzen, entscheiden Sie. Im Rechner stellen Sie den kostenwirksamen Anteil selbst ein.','Altina'],
  ['Was, wenn unser ERP keine brauchbare Schnittstelle hat?','Das ist das wichtigste Risiko und darum das Tor im zweiten Monat. Gibt es keine Schnittstelle, arbeiten wir mit einem täglichen Export. Die Partnerübersicht ist dann einen Tag alt, aber vollständig. Reicht auch das nicht, stoppen wir vor dem Bau und Sie haben bis dahin rund ein Viertel des Budgets eingesetzt.','Josh'],
- ['Wie belastbar sind die 145’000 Franken?','Es sind 96 Personentage zu 1’400 Franken und 10’600 Franken Reserve. Den Aufwand bestätigen wir nach der Discovery im ersten Monat. Die grösste Unsicherheit ist die Integration mit 24 Tagen. Reicht die Reserve nicht, entscheidet der Lenkungsausschuss über Umfang oder Termin, nicht wir.','Maik'],
- ['Was müssen unsere Leute leisten?','45 Personentage über sechs Monate, vor allem für Tests und Pilot. Dazu drei benannte Personen: Sponsor, je eine prozessverantwortliche Person für Vertrieb und Service. Ohne diese Zeit wird das Projekt nicht fertig, das sagen wir lieber heute.','Maik'],
- ['Was, wenn die Mitarbeitenden bei Excel bleiben?','Dann haben wir nichts gewonnen. Darum bauen Key User aus allen vier Standorten mit, der Pilot läuft ausserhalb der Saisonspitze, und wir beobachten ein Zeichen: Werden die persönlichen Listen noch geführt? Wenn ja, klären wir, was im System fehlt, bevor wir ausrollen.','Altina'],
+ ['Wie belastbar sind die 145’000 Franken?','Es sind 96 Personentage zu 1’400 Franken und 10’600 Franken Reserve. Den Aufwand bestätigen wir nach der Discovery im ersten Monat. Die grösste Unsicherheit ist die Integration mit 24 Tagen. Reicht die Reserve nicht, entscheidet der Lenkungsausschuss über Umfang oder Termin, nicht wir.','Altina'],
+ ['Was müssen unsere Leute leisten?','45 Personentage über sechs Monate, vor allem für Tests und Pilot. Dazu drei benannte Personen: Sponsor, je eine prozessverantwortliche Person für Vertrieb und Service. Ohne diese Zeit wird das Projekt nicht fertig, das sagen wir lieber heute.','Altina'],
+ ['Was, wenn die Mitarbeitenden bei Excel bleiben?','Dann haben wir nichts gewonnen. Darum bauen Key User aus allen vier Standorten mit, der Pilot läuft ausserhalb der Saisonspitze, und wir beobachten ein Zeichen: Werden die persönlichen Listen noch geführt? Wenn ja, klären wir, was im System fehlt, bevor wir ausrollen.','Maik'],
  ['Warum keine KI? Alle reden davon.','Weil eine Regel den Glasbruch heute schon richtig zuordnet. KI lohnt sich bei den Antwortentwürfen, braucht aber Ihre Falldaten, die erst mit dem MVP entstehen. Wir schlagen einen Test mit 100 Fällen und drei Schwellen vor. Besteht die KI ihn nicht, bleiben die Regeln.','Josh'],
  ['Warum bauen Sie das CRM nicht selbst?','Partnerübersicht, Lead-Prozess, Fälle und Rechte sind Standardfunktionen. Sie würden uns dafür bezahlen, sie nachzubauen, und wären danach von uns abhängig. Mit 96 Personentagen ist das nicht zu schaffen.','Sila'],
  ['Verlieren wir Partner, wenn Endkunden auf der Website landen?','Nein. Die Website führt Endkunden zum Fachpartner in ihrer Nähe und verkauft nichts direkt. Im MVP gibt es keinen Checkout für Endkunden.','Josh'],

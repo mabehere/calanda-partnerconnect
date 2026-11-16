@@ -1,6 +1,6 @@
 # Moderationsskript – 30 Minuten
 
-19 Szenen, 1800 Sekunden. Richtwert 130 Wörter pro Minute; in den Demo-Szenen bleibt Zeit zum Klicken.
+19 Szenen, 1740 Sekunden. Richtwert 130 Wörter pro Minute; in den Demo-Szenen bleibt Zeit zum Klicken.
 
 ## Sprechblöcke und Übergaben
 
@@ -8,10 +8,10 @@
 |---|---|---|
 | Anya | 1, 2, 3, 19 | Rahmen: Kältewoche, Auftrag, Ausgangslage, Schlussantrag |
 | Sila | 4, 5, 6 | Diagnose und Vorschlag |
-| Altina | 7, 8 | Journey 1: Marco wird Partner |
+| Altina | 15, 16, 17, 18 | Journey 1: Marco wird Partner |
 | Vivienne | 9, 10 | Journey 2 und 3: Marco bestellt, Marco hat einen Schaden |
 | Josh | 11, 12, 13, 14 | Fundament: Marketing, Website, Systeme, KI |
-| Maik | 15, 16, 17, 18 | Wert, Weg und Kosten |
+| Maik | 7, 8 | Wert, Weg und Kosten |
 
 Jede Übergabe ist ein Satz im Sprechtext der abgebenden Person und nennt, was als Nächstes kommt. Wer nicht spricht, bedient die Demo der sprechenden Person oder hält das Demo-Backup bereit. Bei einer Störung über 60 Sekunden: Wechsel auf das PDF-Backup.
 
@@ -77,19 +77,19 @@ Marcos Bestellung steht korrekt im ERP. Sein Mail mit dem Schaden liegt in einem
 
 ## 06 · PartnerConnect. Nähe wird systematisch.
 
-6:30–7:30 · 60 Sekunden · Sila · 89 Wörter
+6:30–7:30 · 60 Sekunden · Sila · 93 Wörter
 
 **Kernaussage:** Salesforce für die Beziehung. Das ERP bleibt führend.
 
-Unser Vorschlag heisst PartnerConnect und läuft auf Salesforce. Sales Cloud führt Anfragen, Partner und Verkaufschancen. Service Cloud führt die Fälle. Ihr ERP bleibt führend für Produkte, Preise, Partnerstammdaten und Bestellungen. Warum Salesforce? Vertrieb, Service und später das Partnerportal laufen auf derselben Plattform. Marco und Ihr Service sehen denselben Fall. In sechs Monaten liefern wir vier Bausteine: Partnerübersicht, Lead-Prozess, Service und die Anbindung ans ERP. Marketing, Website, Portal und KI folgen gestaffelt. Wie das im Alltag aussieht, zeigt Ihnen jetzt Altina. Wir gehen ein Jahr zurück, zu Marcos erster Anfrage.
+Unser Vorschlag heisst PartnerConnect und läuft auf Salesforce. Sales Cloud führt Anfragen, Partner und Verkaufschancen. Service Cloud führt die Fälle. Ihr ERP bleibt führend für Produkte, Preise, Partnerstammdaten und Bestellungen. Warum Salesforce? Vertrieb, Service und später das Partnerportal laufen auf derselben Plattform. Vertrieb und Service sehen denselben Fall, später auch Marco im Portal. In sechs Monaten liefern wir vier Bausteine: Partnerübersicht, Lead-Prozess, Service und die Anbindung ans ERP. Marketing, Website, Portal und KI folgen gestaffelt. Wie das im Alltag aussieht, zeigt Ihnen jetzt Maik. Wir gehen ein Jahr zurück, zu Marcos erster Anfrage.
 
-**Regie:** MVP-Bausteine und spätere Stufen zeigen. Übergabe an Altina.
+**Regie:** MVP-Bausteine und spätere Stufen zeigen. Übergabe an Maik.
 
 **Kriterien:** R1, R7, M1
 
 ## 07 · Aus Interesse wird Partnerschaft.
 
-7:30–10:00 · 150 Sekunden · Altina · 134 Wörter
+7:30–9:45 · 135 Sekunden · Maik · 134 Wörter
 
 **Kernaussage:** Kein Lead ohne nächsten Schritt und verantwortliche Person.
 
@@ -101,9 +101,9 @@ Ich zeige Ihnen drei Dinge: wie Marcos Anfrage eingeht, wie wir sie qualifiziere
 
 ## 08 · Marco. Mit allem, was zählt.
 
-10:00–11:00 · 60 Sekunden · Altina · 75 Wörter
+9:45–10:45 · 60 Sekunden · Maik · 75 Wörter
 
-**Kernaussage:** Eine gemeinsame Historie statt vier persönlicher Postfächer.
+**Kernaussage:** Eine gemeinsame Historie statt persönlicher Postfächer an vier Standorten.
 
 Ein Jahr später ist Marco aktiver Partner. Das ist seine Übersicht. Oben sein Betrieb und seine Kontaktperson. Daneben seine Bestellungen aus dem ERP, seine Servicefälle und der eingebaute Ofen als Asset mit Garantie. Die Stammdaten kommen aus dem ERP und werden hier nur gelesen. Dubletten verhindern wir über die ERP-Partnernummer und die E-Mail-Adresse. Unklare Treffer entscheidet ein Mensch. Wer Marco am Telefon hat, sieht alles auf einer Seite. Vivienne zeigt Ihnen jetzt, wie Marco bestellt.
 
@@ -113,7 +113,7 @@ Ein Jahr später ist Marco aktiver Partner. Das ist seine Übersicht. Oben sein 
 
 ## 09 · Vier Öfen. Eine sichere Übergabe.
 
-11:00–14:00 · 180 Sekunden · Vivienne · 124 Wörter
+10:45–13:30 · 165 Sekunden · Vivienne · 124 Wörter
 
 **Kernaussage:** Jede Bestellung kommt genau einmal im ERP an.
 
@@ -125,11 +125,11 @@ Das ist die zweite Ausbaustufe, das Partnerportal. Ich zeige: Login, Bestellung 
 
 ## 10 · Ein Schaden. Kein verlorener Faden.
 
-14:00–17:30 · 210 Sekunden · Vivienne · 138 Wörter
+13:30–16:45 · 195 Sekunden · Vivienne · 147 Wörter
 
 **Kernaussage:** Dieselbe Kältewoche. Diesmal weiss Caleira Bescheid.
 
-Zurück in die Kältewoche, diesmal mit PartnerConnect. Ich zeige: Erfassung, fehlende Angaben, Eskalation und Rückmeldung. Marco meldet die gesprungene Scheibe. Der Fall hängt an seinem Partnerkonto, an der Bestellung und am eingebauten Ofen. Das System prüft die Pflichtangaben. Das Foto fehlt. Früher begann hier das Hin und Her. Jetzt geht sofort eine Rückfrage an Marco. Er lädt das Foto hoch. Der Fall ist vollständig und geht an Sofia Keller im Service. Sie startet die Prüfung. Es ist Heizsaison, die Kundin hat keine Wärme. Sofia eskaliert an die Serviceleitung. Die Ersatzscheibe geht am selben Tag raus. Marco bekommt die Nachricht, auf Italienisch. Erst dann wird der Fall geschlossen. Jeder Schritt steht in der Historie. Ein gut gelöster Schaden bindet einen Partner stärker als ein Kauf ohne Problem. Das ist der Kern unseres Vorschlags. Josh zeigt Ihnen, was dahinter liegt.
+Zurück in die Kältewoche, diesmal mit PartnerConnect. Ich zeige: Erfassung, fehlende Angaben, Eskalation und Rückmeldung. Marco meldet die gesprungene Scheibe per E-Mail. In Salesforce entsteht daraus ein Fall. Er hängt an seinem Partnerkonto, an der Bestellung und am eingebauten Ofen. Das System prüft die Pflichtangaben. Das Foto fehlt. Früher begann hier das Hin und Her. Jetzt geht sofort eine Rückfrage per E-Mail an Marco. Er schickt das Foto nach. Der Fall ist vollständig und geht an Sofia Keller im Service. Sie startet die Prüfung. Es ist Heizsaison, die Kundin hat keine Wärme. Sofia eskaliert an die Serviceleitung. Die Ersatzscheibe geht am selben Tag raus. Marco bekommt die Nachricht, auf Italienisch. Erst dann wird der Fall geschlossen. Jeder Schritt steht in der Historie. Ein gut gelöster Schaden bindet einen Partner stärker als ein Kauf ohne Problem. Das ist der Kern unseres Vorschlags. Josh zeigt Ihnen, was dahinter liegt.
 
 **Regie:** Fall erfassen → Rückfrage → Foto → Zuweisung → Bearbeitung → Eskalation → Lösung → Nachricht → Abschluss. Schlusssatz langsam.
 
@@ -137,11 +137,11 @@ Zurück in die Kältewoche, diesmal mit PartnerConnect. Ich zeige: Erfassung, fe
 
 ## 11 · Zur richtigen Zeit. Mit gutem Grund.
 
-17:30–18:30 · 60 Sekunden · Josh · 76 Wörter
+16:45–17:45 · 60 Sekunden · Josh · 79 Wörter
 
 **Kernaussage:** Acht Wochen vor der Heizsaison melden wir uns. Nicht mittendrin.
 
-Öfen sind ein Saisongeschäft. Wer im November bestellt, ist spät dran. Unsere Journey hat ein Segment: aktive Partner, die seit 90 Tagen nichts bestellt haben. Ein Auslöser: acht Wochen vor Saisonstart. Und eine E-Mail an Marco mit einem Beratungsangebot. Bestelldatum und Status kommen aus dem ERP, die Einwilligung aus Salesforce. Bestellt Marco oder meldet er sich ab, stoppt die Journey sofort. Den Erfolg messen wir an den Bestellungen der angeschriebenen Partner im Vergleich zu einer Kontrollgruppe.
+Öfen sind ein Saisongeschäft. Wer im November bestellt, ist spät dran. Unsere Journey hat ein Segment: aktive Partner, die seit 90 Tagen nichts bestellt haben. Ein Auslöser: acht Wochen vor Saisonstart. Und eine E-Mail an Marco mit einem Beratungsangebot, in seiner Sprache. Bestelldatum und Status kommen aus dem ERP, die Einwilligung aus Salesforce. Bestellt Marco oder meldet er sich ab, stoppt die Journey sofort. Den Erfolg messen wir an den Bestellungen der angeschriebenen Partner im Vergleich zu einer Kontrollgruppe.
 
 **Regie:** Neue Bestellung und Abmeldung als Stopp zeigen.
 
@@ -149,7 +149,7 @@ Zurück in die Kältewoche, diesmal mit PartnerConnect. Ich zeige: Erfassung, fe
 
 ## 12 · Zwei Zielgruppen. Zwei klare Wege.
 
-18:30–19:30 · 60 Sekunden · Josh · 80 Wörter
+17:45–18:45 · 60 Sekunden · Josh · 80 Wörter
 
 **Kernaussage:** Die Bauherrin findet ihren Ofenbauer. Der Ofenbauer findet uns.
 
@@ -161,7 +161,7 @@ Die Website bekommt zwei Eingänge. Die Bauherrin sieht Inspiration, wählt ein 
 
 ## 13 · Ein klarer Kern. Saubere Verbindungen.
 
-19:30–21:30 · 120 Sekunden · Josh · 112 Wörter
+18:45–20:45 · 120 Sekunden · Josh · 112 Wörter
 
 **Kernaussage:** Das ERP führt die Stammdaten. Salesforce führt die Beziehung.
 
@@ -173,19 +173,19 @@ Drei Regeln halten die Architektur zusammen. Erstens: Jede Information hat ein f
 
 ## 14 · KI verdient einen Beweis.
 
-21:30–22:30 · 60 Sekunden · Josh · 85 Wörter
+20:45–21:45 · 60 Sekunden · Josh · 85 Wörter
 
 **Kernaussage:** Mit Regeln starten. KI nur, wenn der Pilot überzeugt.
 
-Nehmen wir noch einmal Marcos Scheibe. Eine einfache Regel erkennt Glasbruch und leitet den Fall an den Service. Das genügt für den Start. Eine KI könnte zusätzlich die Antwort an Marco vorschreiben. Dafür braucht sie Ihre Falldaten, und ein Mensch gibt jede Antwort frei. Unser Vorschlag: nach dem MVP ein Test mit 100 echten, anonymisierten Fällen. Mindestens 90 Prozent richtig eingeordnet, kein kritischer Fehler, 20 Prozent weniger Bearbeitungszeit. Erreichen wir das nicht, bleiben wir bei den Regeln. Was das alles bringt, rechnet Ihnen Maik vor.
+Nehmen wir noch einmal Marcos Scheibe. Eine einfache Regel erkennt Glasbruch und leitet den Fall an den Service. Das genügt für den Start. Eine KI könnte zusätzlich die Antwort an Marco vorschreiben. Dafür braucht sie Ihre Falldaten, und ein Mensch gibt jede Antwort frei. Unser Vorschlag: nach dem MVP ein Test mit 100 echten, anonymisierten Fällen. Mindestens 90 Prozent richtig eingeordnet, kein kritischer Fehler, 20 Prozent weniger Bearbeitungszeit. Erreichen wir das nicht, bleiben wir bei den Regeln. Was das alles bringt, rechnet Ihnen Altina vor.
 
-**Regie:** Regel und KI-Vorschlag vergleichen, manuell freigeben. Übergabe an Maik.
+**Regie:** Regel und KI-Vorschlag vergleichen, manuell freigeben. Übergabe an Altina.
 
 **Kriterien:** R8
 
 ## 15 · Erfolg wird vorher definiert.
 
-22:30–23:30 · 60 Sekunden · Maik · 82 Wörter
+21:45–22:45 · 60 Sekunden · Altina · 82 Wörter
 
 **Kernaussage:** Vier Tage werden einer. Vier Partner werden sechs. 35 Prozent werden 15.
 
@@ -197,11 +197,11 @@ Ihr Ziel ist ein Partnervertrieb, der wächst und verlässlich ist. Daraus leite
 
 ## 16 · Was wird frei? Was wird wirklich gespart?
 
-23:30–26:00 · 150 Sekunden · Maik · 119 Wörter
+22:45–25:00 · 135 Sekunden · Altina · 119 Wörter
 
 **Kernaussage:** 96 Stunden pro Monat sind Kapazität. Noch keine Einsparung.
 
-Zuerst das MVP. 40 unvollständige Fälle weniger pro Monat. Bei 20 Minuten Rückfrage pro Fall sind das gut 13 Stunden, rund 800 Franken Kapazitätswert. Und zwei Partner mehr pro Quartal sind acht im Jahr. Ein Partner bestellt heute im Schnitt 96 Mal pro Jahr. Das sind rund 770 zusätzliche Bestellungen. Die 20 Minuten sind unsere Annahme. Jetzt der grosse Hebel, das Portal. 1’200 Bestellungen, 40 Prozent von Hand, zwölf Minuten: 96 Stunden pro Monat. Mit 60 Franken bewertet sind das 5’760 Franken. Ich stelle den Automatisierungsgrad auf 60 Prozent: 57,6 Stunden werden frei. Das ist Kapazität, keine Einsparung. Gespart ist erst, was Sie nicht mehr bezahlen. Diesen Anteil stellen Sie hier selbst ein. Welcher Wert ist für Sie realistisch?
+Zuerst das MVP. 40 unvollständige Fälle weniger pro Monat. Bei 20 Minuten Rückfrage pro Fall sind das gut 13 Stunden, rund 800 Franken Kapazitätswert. Und zwei Partner mehr pro Monat sind 24 im Jahr. Ein Partner bestellt heute im Schnitt 96 Mal pro Jahr. Das sind rund 2’300 zusätzliche Bestellungen. Die 20 Minuten sind unsere Annahme. Jetzt der grosse Hebel, das Portal. 1’200 Bestellungen, 40 Prozent von Hand, zwölf Minuten: 96 Stunden pro Monat. Mit 60 Franken bewertet sind das 5’760 Franken. Ich stelle den Automatisierungsgrad auf 60 Prozent: 57,6 Stunden werden frei. Das ist Kapazität, keine Einsparung. Gespart ist erst, was Sie nicht mehr bezahlen. Diesen Anteil stellen Sie hier selbst ein. Welcher Wert ist für Sie realistisch?
 
 **Regie:** MVP-Reiter → Portal-Reiter → Automatisierung 60 % → Anteil «kostenwirksam» mit der Geschäftsleitung einstellen → Reset.
 
@@ -209,7 +209,7 @@ Zuerst das MVP. 40 unvollständige Fälle weniger pro Monat. Bei 20 Minuten Rüc
 
 ## 17 · Sechs Monate. Klare Entscheidungen.
 
-26:00–27:30 · 90 Sekunden · Maik · 114 Wörter
+25:00–26:30 · 90 Sekunden · Altina · 114 Wörter
 
 **Kernaussage:** Jeder Monat endet mit einer Freigabe durch Sie.
 
@@ -221,11 +221,11 @@ Sechs Monate, sechs Freigaben. Monat eins: Prozesse und Kennzahlen. Monat zwei: 
 
 ## 18 · Begrenzt investieren. Verantwortlich umsetzen.
 
-27:30–29:00 · 90 Sekunden · Maik · 112 Wörter
+26:30–28:00 · 90 Sekunden · Altina · 125 Wörter
 
 **Kernaussage:** CHF 145’000 einmalig. CHF 2’600 pro Monat. Beides im Budget.
 
-Das MVP kostet 145’000 Franken einmalig. Das sind 96 Personentage zu 1’400 Franken und eine Reserve von 10’600 Franken. Der grösste Posten ist die ERP-Integration mit 24 Tagen. Laufend sind es 2’600 Franken pro Monat: zwölf Salesforce-Lizenzen zu 100 Franken, 400 Franken für Integration und Überwachung, 1’000 Franken für Betrieb und Support. Zwölf Lizenzen reichen, weil im MVP nur Partnerbetreuung, Service und Leitung damit arbeiten. Von Ihnen brauchen wir 45 Personentage, vor allem für Tests und Pilot. Sie nehmen ab, wir übergeben in den Betrieb. Drei Risiken: die ERP-Schnittstelle, die Datenqualität und die Akzeptanz im Team. Jedes hat ein Frühwarnzeichen, eine Massnahme und eine verantwortliche Person. Für den Schluss zurück zu Anya.
+Das MVP kostet 145’000 Franken einmalig. Das sind 96 Personentage zu 1’400 Franken und eine Reserve von 10’600 Franken. Der grösste Posten ist die ERP-Integration mit 24 Tagen. Laufend sind es 2’600 Franken pro Monat: zwölf Salesforce-Lizenzen zu 100 Franken, 400 Franken für Integration und Überwachung, 1’000 Franken für Betrieb und Support. Zwölf Lizenzen reichen, weil im MVP nur Partnerbetreuung, Service und Leitung damit arbeiten. Ob die Pro Suite für die ERP-Schnittstelle genügt, klären wir im zweiten Monat. Von Ihnen brauchen wir 45 Personentage, vor allem für Tests und Pilot. Sie nehmen ab, wir übergeben in den Betrieb. Drei Risiken: die ERP-Schnittstelle, die Datenqualität und die Akzeptanz im Team. Jedes hat ein Frühwarnzeichen, eine Massnahme und eine verantwortliche Person. Für den Schluss zurück zu Anya.
 
 **Regie:** Kosten, Rollen, drei Risiken öffnen. Übergabe an Anya.
 
@@ -233,7 +233,7 @@ Das MVP kostet 145’000 Franken einmalig. Das sind 96 Personentage zu 1’400 F
 
 ## 19 · Eine verlässliche Beziehung.
 
-29:00–30:00 · 60 Sekunden · Anya · 105 Wörter
+28:00–29:00 · 60 Sekunden · Anya · 105 Wörter
 
 **Kernaussage:** Vier Standorte. 150 Partner. Eine verlässliche Beziehung.
 

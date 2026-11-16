@@ -8,4 +8,4 @@
 
 Schwellen werden im Monat 1 gemeinsam festgelegt. Kritische Fehler bei Schnittstelle, Rechten oder Daten verhindern den Rollout. Wird ein Pilotziel verfehlt: Ursache klären, nachbessern, erneut messen; über Umfang und Termin entscheidet der Sponsor.
 
-Zusätzlich beobachtet: Die Pro Suite genügt nicht für die Schnittstelle (siehe docs/platform-decision.md).
+Zusätzlich beobachtet: Die Pro Suite genügt möglicherweise nicht für die ERP-Schnittstelle; Klärung im Monat 2 (siehe docs/platform-decision.md).

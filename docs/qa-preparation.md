@@ -14,25 +14,25 @@ Antwortet: Sila
 
 Im MVP arbeiten nur Partnerbetreuung, Service und Leitung im System: sechs im Vertrieb, vier im Service, die Vertriebsleitung und eine Administration. Produktion, Logistik und Finanzen bleiben im ERP. Vier weitere Nutzer hätten im Budget Platz. Die Rollenliste bestätigen wir im ersten Monat mit Ihnen.
 
-Antwortet: Maik
+Antwortet: Altina
 
 ### 3. Der grösste Nutzen liegt bei den Bestellungen. Warum ist das Portal nicht im MVP?
 
 Aus zwei Gründen. Das Portal schreibt ins ERP, und diese Schnittstelle ist noch nicht geprüft. Und die Lizenzen für 150 Partner kosten rund 3’750 Franken pro Monat, mehr als das ganze laufende MVP-Budget. Das MVP schafft die Grundlage und der Portal-Entscheid kommt mit einer eigenen Rechnung.
 
-Antwortet: Maik
+Antwortet: Altina
 
 ### 4. Was bringt uns das MVP in Franken?
 
-Vorsichtig gerechnet rund 800 Franken Kapazität pro Monat im Service und acht zusätzliche Partner pro Jahr. Der Wert der Partner hängt von Ihrem Umsatz je Partner ab, den wir nicht kennen. Wir behaupten keinen ROI. Wir legen drei Kennzahlen fest und messen sie gegen den Vorjahresmonat.
+Vorsichtig gerechnet rund 800 Franken Kapazität pro Monat im Service und 24 zusätzliche Partner pro Jahr, wenn aus jeder Monatskohorte sechs statt vier Partner werden. Der Wert der Partner hängt von Ihrem Umsatz je Partner ab, den wir nicht kennen. Wir behaupten keinen ROI. Wir legen drei Kennzahlen fest und messen sie gegen den Vorjahresmonat.
 
-Antwortet: Maik
+Antwortet: Altina
 
 ### 5. Sparen wir damit Personal?
 
 Nein, nicht automatisch. 96 Stunden sind frei werdende Kapazität. Ob Sie diese für die Partnerbetreuung einsetzen oder Stellen nicht nachbesetzen, entscheiden Sie. Im Rechner stellen Sie den kostenwirksamen Anteil selbst ein.
 
-Antwortet: Maik
+Antwortet: Altina
 
 ### 6. Was, wenn unser ERP keine brauchbare Schnittstelle hat?
 
@@ -44,19 +44,19 @@ Antwortet: Josh
 
 Es sind 96 Personentage zu 1’400 Franken und 10’600 Franken Reserve. Den Aufwand bestätigen wir nach der Discovery im ersten Monat. Die grösste Unsicherheit ist die Integration mit 24 Tagen. Reicht die Reserve nicht, entscheidet der Lenkungsausschuss über Umfang oder Termin, nicht wir.
 
-Antwortet: Maik
+Antwortet: Altina
 
 ### 8. Was müssen unsere Leute leisten?
 
 45 Personentage über sechs Monate, vor allem für Tests und Pilot. Dazu drei benannte Personen: Sponsor, je eine prozessverantwortliche Person für Vertrieb und Service. Ohne diese Zeit wird das Projekt nicht fertig, das sagen wir lieber heute.
 
-Antwortet: Maik
+Antwortet: Altina
 
 ### 9. Was, wenn die Mitarbeitenden bei Excel bleiben?
 
 Dann haben wir nichts gewonnen. Darum bauen Key User aus allen vier Standorten mit, der Pilot läuft ausserhalb der Saisonspitze, und wir beobachten ein Zeichen: Werden die persönlichen Listen noch geführt? Wenn ja, klären wir, was im System fehlt, bevor wir ausrollen.
 
-Antwortet: Altina
+Antwortet: Maik
 
 ### 10. Warum keine KI? Alle reden davon.
 

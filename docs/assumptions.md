@@ -14,7 +14,7 @@ Nichts in dieser Tabelle steht im Case. Jede Zeile ist eine Annahme der Agentur 
 | Betrieb | CHF 400 Integration und Monitoring, CHF 1’000 Support pro Monat | Rund 0,7 Personentage Support | Betriebsvertrag |
 | Kundenaufwand | 45 Personentage: 10 Prozesse, 12 IT und Daten, 15 Tests und Pilot, 8 Schulung | Nicht im Projektpreis | Bestätigung durch Kundenrollen |
 | Pilot | 8 Mitarbeitende, 10 Partner, ausserhalb der Saisonspitze | Zwei Drittel der Nutzer, alle vier Standorte | Auswahl im Monat 4 |
-| KPI-Ziele | Antwort 1 statt 4 Arbeitstage; 6 statt 4 neue Partner; 15 statt 35 % unvollständig | Erreichbar mit Zuweisung, Vertretung und Pflichtfeldern | Festlegung im Monat 1, Vergleich mit Vorjahresmonat |
+| KPI-Ziele | Antwort 1 statt 4 Arbeitstage; 6 statt 4 neue Partner je Monatskohorte; 15 statt 35 % unvollständig | Erreichbar mit Zuweisung, Vertretung und Pflichtfeldern | Festlegung im Monat 1, Vergleich mit Vorjahresmonat |
 | Rückfrage je unvollständigem Fall | 20 Minuten | Ein Mail und ein Telefonat | Zeitaufnahme im Pilot |
 | Portal-Lizenzen (Stufe 3) | CHF 3’750 pro Monat für 150 Partner | Listenpreis Experience Cloud für Partner, USD 25 je Mitglied | Offerte; Login-basiertes Modell prüfen |
 | Automatisierung Bestellungen | 30, 60 oder 90 % der manuellen Übertragungen | Szenarien statt Punktwert | Portalnutzung im Betrieb |

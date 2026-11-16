@@ -13,7 +13,7 @@
 
 Abhängigkeiten: R7 vor R1 und R5 (ERP-Referenzen). R1 vor R3 (Kontakte, Einwilligungen). R7 lesend im MVP, schreibend erst für R4. R5 liefert die Falldaten für R8.
 
-Ausschlüsse im MVP: kein Direktverkauf an Endkunden, kein Partnerportal, kein Mailversand an Partner, keine KI.
+Ausschlüsse im MVP: kein Direktverkauf an Endkunden, kein Partnerportal (Partner melden Fälle per E-Mail oder Telefon; Rückfragen und Rückmeldungen gehen per E-Mail aus Salesforce), kein Marketing-Mailversand an Partner, keine KI.
 
 ## Quellen
 
