@@ -3,12 +3,21 @@
   "skills": {
     "frontend-design": {
       "source": "vercel-labs/open-agents",
+      "commit": "cf865e94de7729751c747171785b6ce57e7b178c",
       "sourceType": "github",
       "skillPath": ".agents/skills/frontend-design/SKILL.md",
       "computedHash": "e096e0563684970eba6a7a29d9f6801d03f0d7fe4ce5e938befb21256394f72c"
     },
+    "generative-media-director": {
+      "source": "frankxai/awesome-motion-design-agent-skills",
+      "commit": "e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d",
+      "sourceType": "github",
+      "skillPath": "skills/generative-media-director/SKILL.md",
+      "computedHash": "327864c6aad55885b62d9e6fe7bd77e105f38d2269d27b0b70a5e2afd3f8e4eb"
+    },
     "gsap-core": {
       "source": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
       "sourceType": "github",
       "skillPath": "skills/gsap-core/SKILL.md",
       "computedHash": "dfc8ba849fa8b81c8cc60964ee2a5fa8db4b2a2611801cf549a5b267b8284fa5"
@@ -21,18 +30,21 @@
     },
     "gsap-performance": {
       "source": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
       "sourceType": "github",
       "skillPath": "skills/gsap-performance/SKILL.md",
       "computedHash": "4dd4382cad329927a248fbe55c426901f2bf4f5c598db6ef5ec38c19861b829f"
     },
     "gsap-plugins": {
       "source": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
       "sourceType": "github",
       "skillPath": "skills/gsap-plugins/SKILL.md",
       "computedHash": "328b52a98e9704c0349ba2cee23a6a92376c06b6b1fd3e60e5c20395b55e25e8"
     },
     "gsap-react": {
       "source": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
       "sourceType": "github",
       "skillPath": "skills/gsap-react/SKILL.md",
       "computedHash": "35fd08f2cbfc945f1a8cdd39e232882a19e27781a4043ee1bc71f65432f03389"
@@ -45,6 +57,7 @@
     },
     "gsap-timeline": {
       "source": "greensock/gsap-skills",
+      "commit": "aed9cfd3277740755f6bfc1155c7aa645403b760",
       "sourceType": "github",
       "skillPath": "skills/gsap-timeline/SKILL.md",
       "computedHash": "622140f48b7aa6bcf2f4d4c050b8fa20effa533688a1650854f5ffc1be169a0b"
@@ -55,11 +68,19 @@
       "skillPath": "skills/gsap-utils/SKILL.md",
       "computedHash": "d05b56284eea0118d481b8c673aff27cae66199282995bfe78315785f561002d"
     },
+    "motion-director": {
+      "source": "frankxai/awesome-motion-design-agent-skills",
+      "commit": "e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d",
+      "sourceType": "github",
+      "skillPath": "skills/motion-director/SKILL.md",
+      "computedHash": "538766e74d06db1f9072df201564036710bd4b7d8266d725d2f18010ea29a8a9"
+    },
     "remotion-best-practices": {
       "source": "remotion-dev/skills",
+      "commit": "3e20ac75161bc34468845df714701cc9bf6075f4",
       "sourceType": "github",
       "skillPath": "skills/remotion-best-practices/SKILL.md",
-      "computedHash": "55e6029eeafb7f64bfcaef013f7b9f569dfcc4db6554c6d6fb833ad141ec1494"
+      "computedHash": "5540958b08abc0563cce5410712edf84736a944101e4848857869799cd0b1241"
     },
     "remotion-captions": {
       "source": "remotion-dev/skills",
@@ -81,9 +102,10 @@
     },
     "remotion-interactivity": {
       "source": "remotion-dev/skills",
+      "commit": "3e20ac75161bc34468845df714701cc9bf6075f4",
       "sourceType": "github",
       "skillPath": "skills/remotion-interactivity/SKILL.md",
-      "computedHash": "3c588b415e7e86be30b26057f9751ef21a36c42807bcfc0d2252d4fa5e34e489"
+      "computedHash": "019365f74f49a938fd1ae9d4bc72030efc803c5cd771b5a64c888ae519f55b85"
     },
     "remotion-license": {
       "source": "remotion-dev/skills",
@@ -105,15 +127,17 @@
     },
     "remotion-multimedia": {
       "source": "remotion-dev/skills",
+      "commit": "3e20ac75161bc34468845df714701cc9bf6075f4",
       "sourceType": "github",
       "skillPath": "skills/remotion-multimedia/SKILL.md",
-      "computedHash": "5d0d2d40329e899b854db1eebb462faa8e5ce26b7a13436973699c4a7ff79846"
+      "computedHash": "ceff90a4aec32bc3d2e72007f9c28f9029c65fec9e39059f5bec1494032c2e6e"
     },
     "remotion-render": {
       "source": "remotion-dev/skills",
+      "commit": "3e20ac75161bc34468845df714701cc9bf6075f4",
       "sourceType": "github",
       "skillPath": "skills/remotion-render/SKILL.md",
-      "computedHash": "266306e064e8be13d93c85fac3a9bbd6ef542acac5c1961cfbd3c51b84e02827"
+      "computedHash": "d5008cddb591bc18ae399ebd4fe23f6134a00ce1d7afc81ce7e0ba7ac02d0551"
     },
     "remotion-saas": {
       "source": "remotion-dev/skills",
@@ -133,44 +157,142 @@
       "skillPath": "skills/remotion-upgrade/SKILL.md",
       "computedHash": "27e2c87253c65d0a8d5b8878a871c9d86814fa89bc4f962b2fbe3f8ad450928c"
     },
+    "remotion-video-agent": {
+      "source": "frankxai/awesome-motion-design-agent-skills",
+      "commit": "e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-video-agent/SKILL.md",
+      "computedHash": "b001c74814ec22569e875cda8fa17d90c658d909e21dd6f02a011f152567cc51"
+    },
     "site-motion-excellence-director": {
       "source": "frankxai/awesome-motion-design-agent-skills",
+      "commit": "e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d",
       "sourceType": "github",
       "skillPath": "skills/site-motion-excellence-director/SKILL.md",
       "computedHash": "2a793a1e37cdbbbc08186bd7ff4991ca22de85bce8cba62a7c518c68f8eae04c"
     },
     "threejs-animation": {
       "source": "cesartevisual/threejs-skills",
+      "commit": "84f9bcb4bea1f7a28d57fe7f0af78f7f9c3dc467",
       "sourceType": "github",
       "skillPath": "skills/threejs-animation/SKILL.md",
       "computedHash": "a63adaf1a3bfd618c7ed51c6e7701799746a752e5c027c93451cdf5ee1e2a6e4"
     },
+    "threejs-assets": {
+      "source": "cesartevisual/threejs-skills",
+      "commit": "84f9bcb4bea1f7a28d57fe7f0af78f7f9c3dc467",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-assets/SKILL.md",
+      "computedHash": "e9eff1ef877573695c2d6554a1f8dd693720382fb49f61524c31c38d6ade7e9d"
+    },
+    "threejs-debugging": {
+      "source": "cesartevisual/threejs-skills",
+      "commit": "84f9bcb4bea1f7a28d57fe7f0af78f7f9c3dc467",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-debugging/SKILL.md",
+      "computedHash": "29d5c05f028411a82c75a8d3f797efc00b1d7446833568741608ebdce6de521f"
+    },
+    "threejs-geometry": {
+      "source": "cesartevisual/threejs-skills",
+      "commit": "84f9bcb4bea1f7a28d57fe7f0af78f7f9c3dc467",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-geometry/SKILL.md",
+      "computedHash": "49c69bdb238323f803fb6cc4ba6d45b8abf842d1a14aed5a1d47da4b689eb880"
+    },
+    "threejs-interaction": {
+      "source": "cesartevisual/threejs-skills",
+      "commit": "84f9bcb4bea1f7a28d57fe7f0af78f7f9c3dc467",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-interaction/SKILL.md",
+      "computedHash": "c4e924b6e69390a9b43fc92aa6e9d025db4149f43f79c77795a434af8b10330d"
+    },
+    "threejs-lighting": {
+      "source": "cesartevisual/threejs-skills",
+      "commit": "84f9bcb4bea1f7a28d57fe7f0af78f7f9c3dc467",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-lighting/SKILL.md",
+      "computedHash": "630b1d351bfa6b1c1cafb7fe27f57cc38934bf9fa9e971e186f6f2460694e4d8"
+    },
+    "threejs-materials": {
+      "source": "cesartevisual/threejs-skills",
+      "commit": "84f9bcb4bea1f7a28d57fe7f0af78f7f9c3dc467",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-materials/SKILL.md",
+      "computedHash": "c6cc83f5d492c98bac444721b14561b4590084141c61ec5f64084570f01c7dbe"
+    },
+    "threejs-particles": {
+      "source": "cesartevisual/threejs-skills",
+      "commit": "84f9bcb4bea1f7a28d57fe7f0af78f7f9c3dc467",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-particles/SKILL.md",
+      "computedHash": "011f4cc15a5ea7e04a1a998659cad52ddfe90795e10318ed7f5c9e4deffa3ec7"
+    },
+    "threejs-performance": {
+      "source": "cesartevisual/threejs-skills",
+      "commit": "84f9bcb4bea1f7a28d57fe7f0af78f7f9c3dc467",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-performance/SKILL.md",
+      "computedHash": "063ea29b3ada42b145a2934562a028900cf97dcc08b1b98767561c85de0d6259"
+    },
+    "threejs-postprocessing": {
+      "source": "cesartevisual/threejs-skills",
+      "commit": "84f9bcb4bea1f7a28d57fe7f0af78f7f9c3dc467",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-postprocessing/SKILL.md",
+      "computedHash": "f86de7badcbbc6e46c227e3805a5543805ae926064d4360da98620609e41f2b1"
+    },
+    "threejs-product-viewer": {
+      "source": "cesartevisual/threejs-skills",
+      "commit": "84f9bcb4bea1f7a28d57fe7f0af78f7f9c3dc467",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-product-viewer/SKILL.md",
+      "computedHash": "ab43ff0cd69803b251f5a95c129a1bcbe586d68283979791f34f1528e48e83c4"
+    },
     "threejs-r3f": {
       "source": "cesartevisual/threejs-skills",
+      "commit": "84f9bcb4bea1f7a28d57fe7f0af78f7f9c3dc467",
       "sourceType": "github",
       "skillPath": "skills/threejs-r3f/SKILL.md",
       "computedHash": "4eca6f00838a79b0ae6a836d189506bfc1ccef733d71cfd34dafea340fc81a95"
     },
     "threejs-scene": {
       "source": "cesartevisual/threejs-skills",
+      "commit": "84f9bcb4bea1f7a28d57fe7f0af78f7f9c3dc467",
       "sourceType": "github",
       "skillPath": "skills/threejs-scene/SKILL.md",
       "computedHash": "418dc951505bbce349556d2048860d47cb53ac6c84a14cba7235f18ea4b2c2d3"
     },
+    "threejs-shaders": {
+      "source": "cesartevisual/threejs-skills",
+      "commit": "84f9bcb4bea1f7a28d57fe7f0af78f7f9c3dc467",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-shaders/SKILL.md",
+      "computedHash": "0fbfc72b4ac3e5f23da14a375e1e3feec4825749bc914ea26c110ef5ea626b1a"
+    },
+    "threejs-testing": {
+      "source": "cesartevisual/threejs-skills",
+      "commit": "84f9bcb4bea1f7a28d57fe7f0af78f7f9c3dc467",
+      "sourceType": "github",
+      "skillPath": "skills/threejs-testing/SKILL.md",
+      "computedHash": "ff275c8acfe27bb109ebf10b8765c5cd7ba4c50d7db6ae91ec39a97f72bdafc0"
+    },
     "vercel-react-best-practices": {
       "source": "vercel-labs/agent-skills",
+      "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
       "sourceType": "github",
       "skillPath": "skills/react-best-practices/SKILL.md",
       "computedHash": "7991ed4fbecdac23f47c1a40c243e00a212a9e7f3604db93959b3ae11dffe299"
     },
     "web-design-guidelines": {
       "source": "vercel-labs/agent-skills",
+      "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
       "sourceType": "github",
       "skillPath": "skills/web-design-guidelines/SKILL.md",
       "computedHash": "4f68ae07187fb0d1fb78c88b503d089da4cf5a9d9625d1f2e425b1590bf96d92"
     },
     "web-motion-auditor": {
       "source": "frankxai/awesome-motion-design-agent-skills",
+      "commit": "e7dc6e2e728c918ffcea5edb2d7c94e2a6f7785d",
       "sourceType": "github",
       "skillPath": "skills/web-motion-auditor/SKILL.md",
       "computedHash": "1d7c75841bee1eccb5dc059033b5e7a6ac44470354bb6771c1239c7884da74c1"
