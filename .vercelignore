@@ -1,0 +1,17 @@
+output/
+.agents/
+.git/
+.vercel/
+node_modules/
+dist/
+docs/
+tests/
+scripts/
+test-results/
+playwright-report/
+coverage/
+tmp/
+*.zip
+*.log
+*.tsbuildinfo
+.env*
