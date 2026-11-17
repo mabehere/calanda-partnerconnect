@@ -1,0 +1,31 @@
+Bundling 6%
+Bundling 22%
+Bundling 36%
+Bundling 65%
+Bundling 71%
+Bundling 76%
+Bundling 81%
+Bundling 87%
+Bundling 92%
+Bundling 98%
+Bundling 100%
+Copying public dir 11.4 MB
+Copying public dir 11.4 MB
+Copying public dir 88.2 MB
+Getting composition
+Composition          CaleiraJourney
+Codec                h264
+Output               output/journey-v3-review/stills
+Concurrency          2x
+[Tab 0, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[Tab 1, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+Rendered 1/6
+Rendered 2/6
+[Tab 0, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+Rendered 3/6
+[Tab 1, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+Rendered 4/6
+[Tab 0, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+Rendered 5/6
+Rendered 6/6
++                    output/journey-v3-review/stills

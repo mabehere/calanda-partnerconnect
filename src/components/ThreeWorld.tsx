@@ -47,7 +47,7 @@ function StoveBody(){return <>
  <Cylinder at={[0,2.84,-.14]} height={1.5} radius={.135} color='#38443e' metal={.75}/>
  {[2.2,2.9,3.55].map(y=><Cylinder key={y} at={[0,y,-.14]} height={.045} radius={.15} color='#657168' metal={.8}/>)}
  {[.28,.34,.4].map(y=><Block key={y} at={[0,y,.27]} size={[.71,.025,.025]} color='#101a16'/>)}
- {[-.18,.04,.22].map((x,i)=><group key={x} position={[x,.71,.39]} rotation={[Math.PI/2,.12-i*.1,.8]}><Cylinder radius={.07} height={.44} color='#553a24'/><Cylinder at={[0,.225,0]} radius={.058} height={.012} color='#b28753'/></group>)}
+ {[-.18,.04,.22].map((x,i)=><group key={x} position={[x,.71,.12]} rotation={[Math.PI/2,.12-i*.1,.8]}><Cylinder radius={.07} height={.44} color='#553a24'/><Cylinder at={[0,.225,0]} radius={.058} height={.012} color='#b28753'/></group>)}
  <Block at={[0,.8,.36]} size={[.56,.035,.05]} color='#5e2710' emissive='#c75119'/>
  </>}
 // UV-space flame tongues, sampled from the chapter clock in both renderers.

@@ -1,0 +1,50 @@
+Bundling 6%
+Bundling 22%
+Bundling 33%
+Bundling 65%
+Bundling 71%
+Bundling 76%
+Bundling 81%
+Bundling 87%
+Bundling 92%
+Bundling 98%
+Bundling 100%
+Copying public dir 11.4 MB
+Copying public dir 11.4 MB
+Copying public dir 88.2 MB
+Getting composition
+Composition          CaleiraJourney
+Codec                h264
+Output               output/journey-v3-final/stills
+Concurrency          2x
+[Tab 0, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[Tab 1, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+Rendered 1/18
+Rendered 2/18
+[Tab 0, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+Rendered 3/18
+[Tab 1, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+Rendered 4/18
+Rendered 5/18
+[Tab 0, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+Rendered 6/18
+[Tab 1, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+Rendered 7/18
+Rendered 8/18
+Rendered 9/18
+[Tab 0, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[Tab 1, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+Rendered 10/18
+Rendered 11/18
+[Tab 1, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+Rendered 12/18
+[Tab 0, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+Rendered 13/18
+Rendered 14/18
+[Tab 1, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+Rendered 15/18
+[Tab 0, node_modules/three/build/three.core.js:2014] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+Rendered 16/18
+Rendered 17/18
+Rendered 18/18
++                    output/journey-v3-final/stills

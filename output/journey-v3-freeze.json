@@ -1,0 +1,221 @@
+{
+  "baseline": "51214053b62dbd1d4093757f7de00fa1913dfde2",
+  "checks": [
+    {
+      "path": "docs/ai-disclosure.md",
+      "passed": true
+    },
+    {
+      "path": "docs/architecture.md",
+      "passed": true
+    },
+    {
+      "path": "docs/asset-licenses.md",
+      "passed": true
+    },
+    {
+      "path": "docs/assumptions.md",
+      "passed": true
+    },
+    {
+      "path": "docs/case-facts.md",
+      "passed": true
+    },
+    {
+      "path": "docs/content-freeze-verification.md",
+      "passed": true
+    },
+    {
+      "path": "docs/differentiation.md",
+      "passed": true
+    },
+    {
+      "path": "docs/operating-model.md",
+      "passed": true
+    },
+    {
+      "path": "docs/platform-decision.md",
+      "passed": true
+    },
+    {
+      "path": "docs/presenter-script.md",
+      "passed": true
+    },
+    {
+      "path": "docs/qa-preparation.md",
+      "passed": true
+    },
+    {
+      "path": "docs/qa-report.md",
+      "passed": true
+    },
+    {
+      "path": "docs/requirements-matrix.md",
+      "passed": true
+    },
+    {
+      "path": "docs/risks.md",
+      "passed": true
+    },
+    {
+      "path": "docs/rubric-coverage.md",
+      "passed": true
+    },
+    {
+      "path": "docs/scene-04-art-direction.md",
+      "passed": true
+    },
+    {
+      "path": "docs/theory-map.md",
+      "passed": true
+    },
+    {
+      "path": "docs/visual-upgrade-audit.md",
+      "passed": true
+    },
+    {
+      "path": "docs/visual-upgrade-report.md",
+      "passed": true
+    },
+    {
+      "path": "package-lock.json",
+      "passed": true
+    },
+    {
+      "path": "package.json",
+      "passed": true
+    },
+    {
+      "path": "scripts/documentation.mjs",
+      "passed": true
+    },
+    {
+      "path": "src/App.tsx",
+      "passed": true
+    },
+    {
+      "path": "src/components/BusinessCase.tsx",
+      "passed": true
+    },
+    {
+      "path": "src/components/Demos.tsx",
+      "passed": true
+    },
+    {
+      "path": "src/components/Details.tsx",
+      "passed": true
+    },
+    {
+      "path": "src/components/Partner.tsx",
+      "passed": true
+    },
+    {
+      "path": "src/components/SceneChoreography.tsx",
+      "passed": true
+    },
+    {
+      "path": "src/content/scenes.ts",
+      "passed": true
+    },
+    {
+      "path": "src/creative.css",
+      "passed": true
+    },
+    {
+      "path": "src/data/case.ts",
+      "passed": true
+    },
+    {
+      "path": "src/lib/business.test.ts",
+      "passed": true
+    },
+    {
+      "path": "src/lib/business.ts",
+      "passed": true
+    },
+    {
+      "path": "src/lib/demo.test.ts",
+      "passed": true
+    },
+    {
+      "path": "src/lib/demo.ts",
+      "passed": true
+    },
+    {
+      "path": "src/main.tsx",
+      "passed": true
+    },
+    {
+      "path": "src/styles.css",
+      "passed": true
+    },
+    {
+      "path": "tests/creative.spec.ts",
+      "passed": true
+    },
+    {
+      "path": "tests/pitch.spec.ts",
+      "passed": true
+    },
+    {
+      "path": "Journey business constants / moments / curve / phases",
+      "passed": true
+    },
+    {
+      "path": "Film chapter text, order and timing",
+      "passed": true
+    }
+  ],
+  "assets": [
+    {
+      "name": "advisor.glb",
+      "bytes": 1569084,
+      "sha256": "4ce0fb10e885030bd9410f197845fcd746362695f8e07934ac90de8a82c1dcad"
+    },
+    {
+      "name": "manifest.json",
+      "bytes": 2754,
+      "sha256": "b06767828d9d0d4026fe1afe3c142690619dba3efc81b633f584bf357b13beb8"
+    },
+    {
+      "name": "marco.glb",
+      "bytes": 1377868,
+      "sha256": "145b1d97c1aebc924a46b7c2f361a031160fe427ce7f394f5dd3addc9c42ddbe"
+    },
+    {
+      "name": "Quaternius-License.txt",
+      "bytes": 372,
+      "sha256": "e8dbf915a2b82229913e301a0787696611241bdefec4832bc084f54161db1efe"
+    },
+    {
+      "name": "Quaternius-Vehicles-License.txt",
+      "bytes": 374,
+      "sha256": "de990ef6fc68cffd7fd1ae342c4d0c823b541b8848d8f76bca5d3339f4de6f6e"
+    },
+    {
+      "name": "truck.glb",
+      "bytes": 323932,
+      "sha256": "c37ee8f2ebf2da48d1fa23769942cb970d1dac1679b5bff01ac991439358e3f3"
+    },
+    {
+      "name": "wood-Diffuse.jpg",
+      "bytes": 925789,
+      "sha256": "1f2c623e87b0ee905f6f4ec8664dd19b4b135207c96e86198ff2919770b47166"
+    },
+    {
+      "name": "wood-nor_gl.jpg",
+      "bytes": 665094,
+      "sha256": "2fa427b9196099c0ff72d1a1ab472e2a79ca2a76906a5c46d134f8a86e086d23"
+    },
+    {
+      "name": "wood-Rough.jpg",
+      "bytes": 658448,
+      "sha256": "5754d2c2a91a288bb257e0fa8c697d97b48472c9fb77c4c7f0ffcc302f3f60a2"
+    },
+    {
+      "name": "worker.glb",
+      "bytes": 1307276,
+      "sha256": "4e1d9f21717d179f7d851d970857d4a2e0fd40a576404ecb179ec6aac1ca0647"
+    }
+  ]
+}

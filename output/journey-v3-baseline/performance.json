@@ -1,0 +1,79 @@
+{
+  "reports": [
+    {
+      "quality": "high",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "backend": "ANGLE (AMD, AMD Radeon 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "drawingBuffer": [
+        893,
+        392
+      ],
+      "canvas": [
+        893,
+        392
+      ],
+      "calls": "358",
+      "triangles": "113270",
+      "geometries": "204",
+      "textures": "4",
+      "rafMs": {
+        "p50": 8.300000000000182,
+        "p95": 8.400000000000546,
+        "max": 8.5
+      }
+    },
+    {
+      "quality": "eco",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+      "backend": "ANGLE (AMD, AMD Radeon 780M Graphics (0x00001900) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+      "drawingBuffer": [
+        893,
+        392
+      ],
+      "canvas": [
+        893,
+        392
+      ],
+      "calls": "166",
+      "triangles": "53728",
+      "geometries": "204",
+      "textures": "4",
+      "rafMs": {
+        "p50": 8.300000000001091,
+        "p95": 8.400000000000546,
+        "max": 8.5
+      }
+    }
+  ],
+  "mounts": [
+    {
+      "engine": "three.js r187",
+      "time": "1.676",
+      "chapter": "0",
+      "calls": "360",
+      "triangles": "113870",
+      "geometries": "204",
+      "textures": "4"
+    },
+    {
+      "engine": "three.js r187",
+      "time": "1.691",
+      "chapter": "0",
+      "calls": "360",
+      "triangles": "113870",
+      "geometries": "204",
+      "textures": "4"
+    },
+    {
+      "engine": "three.js r187",
+      "time": "1.688",
+      "chapter": "0",
+      "calls": "360",
+      "triangles": "113870",
+      "geometries": "204",
+      "textures": "4"
+    }
+  ],
+  "errors": [],
+  "note": "Headless Windows browser rAF cadence; not GPU render time or proof of 60 FPS on other laptops."
+}

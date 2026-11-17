@@ -2,7 +2,8 @@ import {Component,useEffect,useRef,useState} from 'react';
 import type {ReactNode} from 'react';
 import {Canvas,useFrame,useThree} from '@react-three/fiber';
 import {OrbitControls} from '@react-three/drei';
-import {World,WorldLights,SceneCamera,Stove,Block,sampleWorld} from './ThreeWorld';
+import {World,SceneCamera,WorldLights as JourneyLights} from './CinematicWorld';
+import {WorldLights,Stove,Block,sampleWorld} from './ThreeWorld';
 import {Play,Pause,Rotate3D,Film,MoveUpRight,ArrowRight,RotateCcw,Maximize,Minimize,Gauge} from 'lucide-react';
 import {PCFShadowMap,type Group} from 'three';
 import {CASE,PLAN,number} from '../data/case';
@@ -40,7 +41,7 @@ export default function Journey({reduced=false}:{reduced?:boolean}){
  const togglePlay=()=>{if(film&&video.current){if(video.current.paused)void video.current.play();else video.current.pause()}else setPlaying(v=>!v)};
  const m=MOMENTS[chapter];
  return <div className={`journey ${before?'is-before':'is-after'}`} onKeyDown={e=>{if(['ArrowLeft','ArrowRight','ArrowUp','ArrowDown',' '].includes(e.key))e.stopPropagation()}}><div className="journey-main"><div className="journey-stage" ref={stage}>
- {film?<video ref={video} className="journey-video" controls muted autoPlay={!reduced} onPlay={()=>setPlaying(true)} onPause={()=>setPlaying(false)} onEnded={()=>setPlaying(false)} onTimeUpdate={e=>{const t=e.currentTarget.currentTime;setChapter(Math.min(5,Math.floor(t/12)));setBefore(t>=12&&t<16)}} src="/media/caleira-customer-journey.mp4" aria-label="72 Sekunden Customer-Journey-Film"/>:<GraphicsBoundary><Canvas frameloop={playing&&!reduced&&!explore?'always':'demand'} shadows={low?false:{type:PCFShadowMap}} dpr={low?1:[1,1.5]} gl={{antialias:true,preserveDrawingBuffer:true}}><color attach="background" args={['#202e28']}/><WorldLights low={low}/><JourneyRuntime clock={clock} playing={playing&&!reduced&&!explore} chapter={chapter} onNext={()=>setChapter(c=>(c+1)%6)} progress={progress}/><SceneCamera chapter={chapter} explore={explore} wide={wide} reduced={reduced} clock={clock}/><World chapter={chapter} clock={clock} before={before} onHotspot={select}/></Canvas></GraphicsBoundary>}
+ {film?<video ref={video} className="journey-video" controls muted autoPlay={!reduced} onPlay={()=>setPlaying(true)} onPause={()=>setPlaying(false)} onEnded={()=>setPlaying(false)} onTimeUpdate={e=>{const t=e.currentTarget.currentTime;setChapter(Math.min(5,Math.floor(t/12)));setBefore(t>=12&&t<16)}} src="/media/caleira-customer-journey.mp4" aria-label="72 Sekunden Customer-Journey-Film"/>:<GraphicsBoundary><Canvas frameloop={playing&&!reduced&&!explore?'always':'demand'} shadows={low?false:{type:PCFShadowMap}} dpr={low?1:[1,1.5]} gl={{antialias:true,preserveDrawingBuffer:true}}><color attach="background" args={['#202e28']}/><JourneyLights low={low}/><JourneyRuntime clock={clock} playing={playing&&!reduced&&!explore} chapter={chapter} onNext={()=>setChapter(c=>(c+1)%6)} progress={progress}/><SceneCamera chapter={chapter} explore={explore} wide={wide} reduced={reduced} clock={clock}/><World overview={wide||explore} chapter={chapter} clock={clock} before={before} onHotspot={select}/></Canvas></GraphicsBoundary>}
  <div className="world-label"><span className="live-dot"/>{film?'CINEMATIC FILM · 72 S':before?'VORHER · FRAGMENTIERT':'PARTNERCONNECT · MINIATURWELT'}</div>
  <div className="toolbar stage-toolbar">
  <button onClick={togglePlay} aria-label={playing?'Film-Modus pausieren':'Film-Modus fortsetzen'}>{playing?<Pause size={15}/>:<Play size={15}/>}</button>

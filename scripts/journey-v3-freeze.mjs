@@ -1,0 +1,16 @@
+import fs from 'node:fs';
+import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
+const baseline=fs.readFileSync('output/journey-v3-baseline/commit.txt','utf8').replace(/^\uFEFF/,'').trim();
+const git=(...args)=>execFileSync('git',args,{maxBuffer:30*1024*1024});
+const canonical=b=>b.toString().replace(/\r\n/g,'\n');
+const paths=git('ls-tree','-r','--name-only',baseline).toString().trim().split('\n').filter(p=>/^(src\/|docs\/|tests\/|scripts\/documentation\.mjs$|package(-lock)?\.json$)/.test(p));
+const allowed=new Set(['src/components/Journey.tsx','src/components/ThreeWorld.tsx']);
+const checks=paths.filter(p=>!allowed.has(p)).map(path=>({path,passed:canonical(git('show',`${baseline}:${path}`))===canonical(fs.readFileSync(path))}));
+const journey=s=>s.slice(s.indexOf('const chapters='),s.indexOf('export default function Journey'));
+checks.push({path:'Journey business constants / moments / curve / phases',passed:journey(canonical(git('show',`${baseline}:src/components/Journey.tsx`)))===journey(canonical(fs.readFileSync('src/components/Journey.tsx')))});
+const film=s=>[...s.matchAll(/<Sequence name="[\s\S]*?<\/Sequence>/g)].map(m=>m[0]);
+checks.push({path:'Film chapter text, order and timing',passed:JSON.stringify(film(canonical(git('show',`${baseline}:video/root.tsx`))))===JSON.stringify(film(canonical(fs.readFileSync('video/root.tsx'))))});
+const assets=fs.readdirSync('public/assets/journey-v3').map(name=>{const data=fs.readFileSync('public/assets/journey-v3/'+name);return {name,bytes:data.length,sha256:createHash('sha256').update(data).digest('hex')}});
+fs.writeFileSync('output/journey-v3-freeze.json',JSON.stringify({baseline,checks,assets},null,2));
+console.log(`${checks.filter(c=>c.passed).length}/${checks.length} V3 freeze checks passed`);checks.filter(c=>!c.passed).forEach(c=>console.error(c.path));process.exitCode=checks.every(c=>c.passed)?0:1;
