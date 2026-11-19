@@ -31,6 +31,13 @@ const MOOD={today:[.72,.34,.56,.4,.06,.3],next:[.76,.8,.76,.8,.5,.94]};
 const PHASES:[string,number][]=[['Awareness',1],['Consideration',1],['Purchase',2],['Retention',1],['Advocacy',1]];
 const px=(i:number)=>(i+.5)*100,py=(v:number)=>88-v*76;
 const curve=(v:number[])=>v.map((m,i)=>i===0?`M${px(i)} ${py(m)}`:`C${px(i)-50} ${py(v[i-1])} ${px(i)-50} ${py(m)} ${px(i)} ${py(m)}`).join(' ');
+export function MomentPanel({chapter}:{chapter:number}){const m=MOMENTS[chapter];return ( <aside className="moment-panel" aria-live="polite"><div className="moment-head"><span>MARCOS MOMENT 0{chapter+1}</span><span className="phase-chip">{m.phase}</span></div>
+ <blockquote key={`q${chapter}`}>{m.quote}</blockquote>
+ <div className="moment-figure" key={`f${chapter}`}><strong>{m.value}</strong><div><b>{m.unit}</b><span>{m.label}</span></div></div>
+ <div className="moment-row today"><span>HEUTE</span><p>{m.today}</p></div>
+ <div className="moment-row next"><span>MIT PARTNERCONNECT</span><p>{m.next}</p></div>
+ <div className="moment-foot"><span className={`tag ${m.mvp?'mvp':''}`}>{m.req} · {m.mvp?'IM MVP':'NACH DEM MVP'}</span>{m.live&&<button onClick={()=>{location.hash=`scene-${m.live}`}}><span className="live-dot"/>Live-Demo · Szene {String(m.live).padStart(2,'0')}<ArrowRight size={14}/></button>}</div></aside>)}
+export {chapters,MOOD,PHASES,curve,px,py,MOMENTS};
 export default function Journey({reduced=false}:{reduced?:boolean}){
  const [chapter,setChapter]=useState(0),[playing,setPlaying]=useState(!reduced),[explore,setExplore]=useState(false),[before,setBefore]=useState(false),[film,setFilm]=useState(false),[wide,setWide]=useState(false),[low,setLow]=useState(false),[fullscreen,setFullscreen]=useState(false);
  const clock=useRef(0),progress=useRef<HTMLDivElement>(null),stage=useRef<HTMLDivElement>(null),video=useRef<HTMLVideoElement>(null);
@@ -55,12 +62,7 @@ export default function Journey({reduced=false}:{reduced?:boolean}){
  </div>
  {!film&&<><div className="world-caption"><span>0{chapter+1} / 06</span><h3>{chapters[chapter]}</h3><p>{descriptions[chapter]}</p></div><div className="shot-progress" aria-hidden="true"><div ref={progress}/></div></>}</div>
 
- <aside className="moment-panel" aria-live="polite"><div className="moment-head"><span>MARCOS MOMENT 0{chapter+1}</span><span className="phase-chip">{m.phase}</span></div>
- <blockquote key={`q${chapter}`}>{m.quote}</blockquote>
- <div className="moment-figure" key={`f${chapter}`}><strong>{m.value}</strong><div><b>{m.unit}</b><span>{m.label}</span></div></div>
- <div className="moment-row today"><span>HEUTE</span><p>{m.today}</p></div>
- <div className="moment-row next"><span>MIT PARTNERCONNECT</span><p>{m.next}</p></div>
- <div className="moment-foot"><span className={`tag ${m.mvp?'mvp':''}`}>{m.req} · {m.mvp?'IM MVP':'NACH DEM MVP'}</span>{m.live&&<button onClick={()=>{location.hash=`scene-${m.live}`}}><span className="live-dot"/>Live-Demo · Szene {String(m.live).padStart(2,'0')}<ArrowRight size={14}/></button>}</div></aside></div>
+ <MomentPanel chapter={chapter}/></div>
  <div className="journey-track"><div className="mood-legend"><em>Wie Marco die Beziehung erlebt · illustrativ</em><span className="today">Heute</span><span className="next">Mit PartnerConnect</span></div><div className="mood" aria-hidden="true"><svg viewBox="0 0 600 100" preserveAspectRatio="none"><path className="mood-today" d={curve(MOOD.today)}/><path className="mood-next" d={curve(MOOD.next)}/></svg>{MOOD.today.map((v,i)=><i key={`t${i}`} className={`dot today ${chapter===i?'active':''}`} style={{left:`${px(i)/6}%`,top:`${py(v)}%`}}/>)}{MOOD.next.map((v,i)=><i key={`n${i}`} className={`dot next ${chapter===i?'active':''}`} style={{left:`${px(i)/6}%`,top:`${py(v)}%`}}/>)}</div>
  <div className="moments">{chapters.map((c,i)=><button className={chapter===i?'active':''} key={c} aria-current={chapter===i?'step':undefined} onClick={()=>select(i)}><b>0{i+1}</b><span>{c}</span>{MOMENTS[i].live&&<small>Live</small>}</button>)}</div>
  <div className="phases" aria-label="Customer Lifecycle: Awareness, Consideration, Purchase, Retention, Advocacy">{PHASES.map(([p,n])=><span key={p} className={m.phase===p?'active':''} style={{gridColumn:`span ${n}`}}>{p}</span>)}</div></div></div>

@@ -19,3 +19,4 @@ output/**/source.zip
 
 # Local V4 approval renders and audit evidence (never commit generated media).
 output/caleira-v4-pilot/
+output/interactive-storyworld-v5/
