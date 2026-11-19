@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+import {execFileSync} from 'node:child_process';
+import crypto from 'node:crypto';
+const base='b2f4ece860c7b9ea8533dca39e098f02c74fc1aa';const git=(...args)=>execFileSync('git',args,{maxBuffer:150*1024*1024});
+const hash=data=>crypto.createHash('sha256').update(data).digest('hex');
+const paths=git('ls-tree','-r','--name-only',base).toString().trim().split('\n').filter(p=>p!=='.gitignore');
+const normalize=data=>data.toString().replace(/\r\n/g,'\n');
+const results=paths.map(path=>{const a=git('show',`${base}:${path}`),b=fs.readFileSync(path);const binary=/\.(mp4|png|jpg|jpeg|glb|pdf|woff2?)$/.test(path);return{path,passed:binary?hash(a)===hash(b):normalize(a)===normalize(b)}});
+const film='public/media/caleira-customer-journey.mp4';const result={base,branch:git('branch','--show-current').toString().trim(),checked:results.length,passed:results.every(r=>r.passed),failures:results.filter(r=>!r.passed),productionFilm:{sha256:hash(fs.readFileSync(film)),blob:git('hash-object',film).toString().trim()},checks:results};
+fs.writeFileSync('output/caleira-v4-pilot/content-freeze.json',JSON.stringify(result,null,2));console.log(`${result.checked} original tracked files unchanged: ${result.passed}`);if(!result.passed)process.exitCode=1;

@@ -16,3 +16,6 @@ test-results/
 output/**/source.zip
 .vercel
 .env*
+
+# Local V4 approval renders and audit evidence (never commit generated media).
+output/caleira-v4-pilot/
