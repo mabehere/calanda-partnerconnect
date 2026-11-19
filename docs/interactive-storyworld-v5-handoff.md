@@ -1,5 +1,7 @@
 # Interactive Storyworld V5 · Übergabe A–C
 
+Aktueller Betriebsstand nach Phase E: [Interactive Storyworld V5](interactive-storyworld-v5.md). Dieses Dokument archiviert die Übergabe des früheren Teilablaufs.
+
 Der lokale Branch `codex/interactive-storyworld-v5` enthält einen spielbaren Vier-Schritte-Ausschnitt in Szene 4. Der vorherige V4-Branch hält den separat gesicherten Quellstand `53e0339`. Die Medien des Piloten liegen weiterhin im lokalen Ordner `output/caleira-v4-pilot/`. Die Freigabeseite dort enthält den Pilot mit Ton und den Fahrzeugtest. Die Produktion verwendet weiterhin den vorhandenen vollständigen Film.
 
 ## Vorführen

@@ -17,8 +17,8 @@ try{
  const repeat=await pixels();assert.ok(repeat===first,'Replay did not restore the same image');
  await page.getByLabel('Ansicht und Einstellungen').click();await page.getByRole('button',{name:'Explore',exact:true}).click();
  await page.getByLabel('Ansicht und Einstellungen').click();await page.waitForTimeout(350);
- await stage.screenshot({path:'output/interactive-storyworld-v5/overview.png'});
+ await stage.screenshot({path:'output/interactive-storyworld-v5/full/overview.png'});
  await page.getByLabel('Ansicht und Einstellungen').click();await page.getByRole('button',{name:'Film',exact:true}).click();
  assert.equal(await stage.locator('video').evaluate(v=>v.paused),true);
- fs.writeFileSync('output/interactive-storyworld-v5/motion-check.json',JSON.stringify({pausePixelStable:true,replayEndPixelIdentical:true,filmInitiallyPaused:true}));
+ fs.writeFileSync('output/interactive-storyworld-v5/full/motion-check.json',JSON.stringify({pausePixelStable:true,replayEndPixelIdentical:true,filmInitiallyPaused:true}));
 }finally{await browser.close()}

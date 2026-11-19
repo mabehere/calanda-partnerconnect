@@ -11,12 +11,12 @@ try{
    };
  });
  await page.goto('http://127.0.0.1:5195/#scene-4');
- for(let i=0;i<4;i++){
+ for(let i=0;i<14;i++){
    if(i)await page.keyboard.press('ArrowRight');
    await page.locator('.sw[data-step="'+i+'"][data-phase="Ergebnis"]').waitFor();
    await page.waitForFunction(()=>{const img=document.querySelector('.sw-fallback');return img?.complete&&img.naturalWidth>0});
  }
  await page.keyboard.press('ArrowRight');await page.waitForURL('**/#scene-5');
- fs.writeFileSync('output/interactive-storyworld-v5/fallback.json',JSON.stringify({webglDisabled:true,reducedMotion:true,imagesLoaded:4,finalExit:true}));
- console.log('Four fallback images and final click to scene 5 passed');
+ fs.writeFileSync('output/interactive-storyworld-v5/full/fallback.json',JSON.stringify({webglDisabled:true,reducedMotion:true,imagesLoaded:14,finalExit:true}));
+ console.log('Fourteen fallback images and final click to scene 5 passed');
 }finally{await browser.close()}
